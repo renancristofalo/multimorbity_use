@@ -1,0 +1,24 @@
+name: ml_saude
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip>=19.0
+  - jupyter
+  - tensorflow-deps
+  - scikit-learn
+  - scipy
+  - pandas
+  - pandas-datareader
+  - matplotlib
+  - pillow
+  - tqdm
+  - requests
+  - h5py
+  - pyyaml
+  - ipykernel
+  - pip:
+      - tensorflow-macos==2.10
+      - tensorflow-metal
+      - bayesian-optimization
