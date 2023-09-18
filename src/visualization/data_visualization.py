@@ -57,6 +57,7 @@ def plot(
     format_num=".2f",
     ax=None,
     fig=None,
+    xlabel_rotation = 45,
     **kwargs,
 ):
     """Function to plot multiple columns in a dataframe.
@@ -229,7 +230,7 @@ def plot(
                 # ax.set_ylim(ymin=ax_min, ymax=ax_max)
                 ax.set(ylim=clip_aux)
 
-        plt.xticks(rotation=45, fontsize=12)
+        plt.xticks(rotation=xlabel_rotation, fontsize=12)
         # ax.tick_params(axis='x', rotation=45, ha='left')
         # ax.set_xticklabels(ax.get_xticklabels(),rotation=45, rotation_mode="anchor", ha='right')
 
