@@ -6,8 +6,13 @@ import pandas as pd
 import seaborn as sns
 from BorutaShap import BorutaShap
 from sklearn.base import clone, is_classifier
-from sklearn.feature_selection import (RFE, SelectFromModel, SelectKBest,
-                                       f_classif, r_regression)
+from sklearn.feature_selection import (
+    RFE,
+    SelectFromModel,
+    SelectKBest,
+    f_classif,
+    r_regression,
+)
 from sklearn.linear_model import LassoCV
 from sklearn.metrics import get_scorer
 from sklearn.model_selection import train_test_split
@@ -15,6 +20,78 @@ from tqdm import tqdm
 
 from src.ml.evaluation.evaluate import get_metric_result, get_scorer
 from src.utils.utils import now_str, time_diff_str
+
+
+def identify_missing(X, missing_threshold=0.6):
+    """Find the features with a fraction of missing values above `missing_threshold`
+
+    Args:
+        missing_threshold ([float]): Percentage of missing in the feature column
+    """
+    df = X.copy()
+
+    # Calculate the fraction of missing in each column
+    missing_series = df.isnull().sum() / df.shape[0]
+    missing_stats = pd.DataFrame(missing_series).rename(
+        columns={"index": "feature", 0: "missing_fraction"}
+    )
+
+    # Sort with highest number of missing values on top
+    missing_stats = missing_stats.sort_values("missing_fraction", ascending=False)
+
+    # Find the columns with a missing percentage above the threshold
+    record_missing = (
+        pd.DataFrame(missing_series[missing_series > missing_threshold])
+        .reset_index()
+        .rename(columns={"index": "feature", 0: "missing_fraction"})
+    )
+
+    to_drop = list(record_missing["feature"])
+
+    missing_support = np.array(
+        [True if col not in to_drop else False for col in df.columns]
+    )
+
+    missing_features = df.columns.drop(to_drop)
+
+    print(
+        "%d features with greater than %0.2f missing values.\n"
+        % (len(to_drop), missing_threshold)
+    )
+
+    return missing_support, missing_features, record_missing
+
+
+def identify_single_unique(X):
+    """Finds features with only a single unique value. NaNs do not count as a unique value."""
+
+    df = X.copy()
+
+    # Calculate the unique counts in each column
+    unique_counts = df.nunique()
+    unique_stats = pd.DataFrame(unique_counts).rename(
+        columns={"index": "feature", 0: "nunique"}
+    )
+    unique_stats = unique_stats.sort_values("nunique", ascending=True)
+
+    # Find the columns with only one unique count
+    record_single_unique = (
+        pd.DataFrame(unique_counts[unique_counts == 1])
+        .reset_index()
+        .rename(columns={"index": "feature", 0: "nunique"})
+    )
+
+    to_drop = list(record_single_unique["feature"])
+
+    single_support = np.array(
+        [True if col not in to_drop else False for col in df.columns]
+    )
+
+    single_features = df.columns.drop(to_drop)
+
+    print("%d features with a single unique value.\n" % len(to_drop))
+
+    return single_support, single_features, record_single_unique
 
 
 def collinear_removal(X, y, correlation_threshold):
@@ -69,9 +146,14 @@ def collinear_removal(X, y, correlation_threshold):
 
     # Iterate through the columns to drop to record pairs of correlated features
     for column in to_drop:
-
         # Find the correlated features
-        corr_features = list(upper.index[upper[column].abs() > correlation_threshold])
+        try:
+            corr_features = list(
+                upper.index[upper[column].abs() > correlation_threshold]
+            )
+        except:
+            print(column)
+            raise Exception("Error")
 
         # Find the correlated values
         corr_values = list(upper[column][upper[column].abs() > correlation_threshold])
@@ -114,12 +196,13 @@ def loop_k_features(
 ):
     """Loop through the qty of features to select which qty provides the best result using the Feature Selection models to select the best features
 
-        Args:
-            model ([sklearn model]): [Model to be used in the selection and/or for the analysis of the results]
-            method (str, optional): [Method to choose the features]. Defaults to 'FromModel'.
-            max_features (int, optional): [Max number of features to be tested]. Defaults to 150.
-            flag_removal (bool, optional): [If this method will flag removal or not]. Defaults to True.
-            metric ([str], optional): [Metric to be used in the analysis]. Defaults to None."""
+    Args:
+        model ([sklearn model]): [Model to be used in the selection and/or for the analysis of the results]
+        method (str, optional): [Method to choose the features]. Defaults to 'FromModel'.
+        max_features (int, optional): [Max number of features to be tested]. Defaults to 150.
+        flag_removal (bool, optional): [If this method will flag removal or not]. Defaults to True.
+        metric ([str], optional): [Metric to be used in the analysis]. Defaults to None.
+    """
 
     start = datetime.datetime.now()
 
@@ -150,7 +233,6 @@ def loop_k_features(
     )
 
     for n in tqdm(range(len(n_list))):
-
         selector = _get_selector(
             method=method,
             n_list=n_list,
@@ -194,7 +276,7 @@ def loop_k_features(
 
     # plot
     f, ax = plt.subplots(figsize=(20, 5))
-    sns.lineplot(x = n_list, y = score_list, ax=ax)
+    sns.lineplot(x=n_list, y=score_list, ax=ax)
 
     return support, features
 
@@ -272,7 +354,12 @@ def BorutaShap_selection(
     X,
     y,
     model,
-    kwargs={"n_trials": 100, "random_state": 0, "normalize": False, "verbose": False,},
+    kwargs={
+        "n_trials": 100,
+        "random_state": 0,
+        "normalize": False,
+        "verbose": False,
+    },
 ):
     """Runs the boruta method of Feature Selection using the shapley values
 
@@ -297,7 +384,9 @@ def BorutaShap_selection(
     print("Starting BorutaShap\n")
 
     selector = BorutaShap(
-        model=model, importance_measure="shap", classification=task == "classification",
+        model=model,
+        importance_measure="shap",
+        classification=task == "classification",
     )
 
     selector.fit(X=features, y=labels, **kwargs)
@@ -346,4 +435,3 @@ def voting(volting_dict: dict, threshold: int, return_all_variables=False):
         ]
 
     return variáveis_selecionadas, feature_selection_df
-

@@ -10,11 +10,17 @@ import seaborn as sns
 from plot_metric.functions import BinaryClassification
 from scipy import stats
 from sklearn.calibration import CalibrationDisplay
-from sklearn.metrics import (DetCurveDisplay, classification_report,
-                             confusion_matrix, det_curve, mean_absolute_error,
-                             mean_absolute_percentage_error,
-                             mean_squared_error, precision_recall_curve,
-                             r2_score)
+from sklearn.metrics import (
+    DetCurveDisplay,
+    classification_report,
+    confusion_matrix,
+    det_curve,
+    mean_absolute_error,
+    mean_absolute_percentage_error,
+    mean_squared_error,
+    precision_recall_curve,
+    r2_score,
+)
 from yellowbrick.bestfit import draw_identity_line
 from yellowbrick.regressor import PredictionError, ResidualsPlot
 
@@ -57,7 +63,7 @@ def plot(
     format_num=".2f",
     ax=None,
     fig=None,
-    xlabel_rotation = 45,
+    xlabel_rotation=45,
     **kwargs,
 ):
     """Function to plot multiple columns in a dataframe.
@@ -542,15 +548,13 @@ def _plot_countplot(
             * 1.2
         )
         ax.set(ylim=(0, ylim))
-        
-        if 'order' in kwargs:
-            order = kwargs.pop('order')
+
+        if "order" in kwargs:
+            order = kwargs.pop("order")
         else:
-            order = df[col].value_counts().index 
-            
-        chart = sns.countplot(
-            x=df[col], hue=df[by], ax=ax, order=order **kwargs
-        )
+            order = df[col].value_counts().index
+
+        chart = sns.countplot(x=df[col], hue=df[by], ax=ax, order=order, **kwargs)
         n_categoria = -1
         try:
             total = len(df[by])
@@ -579,12 +583,12 @@ def _plot_countplot(
             * 1.2
         )
         ax.set(ylim=(0, ylim))
-        
-        if 'order' in kwargs:
-            order = kwargs.pop('order')
+
+        if "order" in kwargs:
+            order = kwargs.pop("order")
         else:
-            order = df[col].value_counts().index 
-            
+            order = df[col].value_counts().index
+
         chart = sns.countplot(x=df[col], ax=ax, order=order, **kwargs)
         n_categoria = -1
         total = len(df[col])
@@ -961,7 +965,6 @@ def plot_model_history(history, ncols=2, save_path=None, plot_size=(10, 6), dpi=
     fig.subplots_adjust(hspace=0.2, wspace=0.2)
 
     for idx, metric in enumerate(metrics, start=1):
-
         ax = fig.add_subplot(rows, ncols, idx)
 
         sns.lineplot(y=history[metric], x=range(1, len(history[metric]) + 1), ax=ax)

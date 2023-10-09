@@ -5,6 +5,8 @@ import numpy as np
 from sklearn.feature_extraction.text import _VectorizerMixin
 from sklearn.feature_selection._base import SelectorMixin
 from sklearn.pipeline import Pipeline
+from category_encoders.target_encoder import TargetEncoder
+from src.utils.utils import standardize_column_name
 
 
 def get_feature_out(estimator, feature_in):
@@ -12,6 +14,8 @@ def get_feature_out(estimator, feature_in):
         if isinstance(estimator, _VectorizerMixin):
             # handling all vectorizers
             return [f"vec___-{f}" for f in estimator.get_feature_names_out()]
+        elif isinstance(estimator, TargetEncoder):
+            return feature_in
         else:
             features_out = []
             for feature, category, drop_idx in zip(
@@ -49,6 +53,8 @@ def get_ct_feature_names(ct):
                 output_features.extend(features_out)
             elif estimator == "passthrough":
                 output_features.extend(ct.feature_names_in_[features])
+
+    output_features = [standardize_column_name(col) for col in output_features]
 
     return output_features
 

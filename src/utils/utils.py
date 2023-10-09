@@ -1,4 +1,5 @@
 import datetime
+import re
 
 
 def now_str():
@@ -53,3 +54,22 @@ def check_dict_keys(dict, keys):
     if not all(key in dict for key in keys):
         raise AttributeError(f"dicts must contain the keys {', '.join(keys)}")
     return True
+
+
+def remove_special_characters(input_string):
+    # Define a regular expression pattern to match special characters
+    pattern = r"[^A-Za-z0-9\s___-]"
+
+    # Use the sub() method to replace all matches with an empty string
+    clean_string = re.sub(pattern, " ", input_string)
+    clean_string = re.sub(r"[\s]+", " ", clean_string)
+
+    return clean_string
+
+
+def standardize_column_name(col):
+    import unidecode
+
+    col = unidecode.unidecode(col)
+    col = remove_special_characters(col).strip()
+    return col.replace(" ", "_").lower()

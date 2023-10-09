@@ -1,0 +1,56 @@
+2023-09-20 20:46:41 INFO: 
+*************** BORUTA ***************
+
+2023-09-20 20:46:41 INFO: {
+   "description": "Training with features selected by the Boruta Feature Selection",
+   "df_train": "../data/feature_selection/boruta/df_train.parquet",
+   "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-20 20:46:41 INFO: 
+df_train shape: (2444, 7) 
+ df_test shape: (1048, 7)
+
+2023-09-20 20:46:41 INFO: 
+*************** FS ***************
+
+2023-09-20 20:46:41 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs/df_train.parquet",
+   "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-20 20:46:41 INFO: 
+df_train shape: (2444, 13) 
+ df_test shape: (1048, 13)
+
+2023-09-20 20:46:41 INFO: 
+*************** FS_MUST ***************
+
+2023-09-20 20:46:41 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet",
+   "imbalanced_sampler": "SMOTEENN(random_state=42)"
+}
+2023-09-20 20:46:41 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-20 20:46:41 INFO: *************** BORUTA ***************
+2023-09-20 20:46:41 INFO: {
+    "description": "Training with features selected by the Boruta Feature Selection",
+    "df_train": "../data/feature_selection/boruta/df_train.parquet",
+    "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-20 20:46:41 INFO: df_train shape: (2444, 7)
+2023-09-20 20:46:41 INFO: df_test shape: (1048, 7)
+2023-09-20 20:47:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdc_kkp62/assets
+2023-09-20 20:47:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7_e4pckk/assets
+2023-09-20 20:47:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsu25o6zu/assets
+2023-09-20 20:47:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8neg6djd/assets
+2023-09-20 20:47:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwpdtk6kx/assets
+2023-09-20 20:47:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6tq6pyka/assets
+2023-09-20 20:47:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxqby3kdm/assets
+2023-09-20 20:47:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwljpj9cb/assets
+2023-09-20 20:47:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzrutqpzd/assets
+2023-09-20 20:47:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_8i_ikoc/assets
+2023-09-20 20:47:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyjfgfjm7/assets

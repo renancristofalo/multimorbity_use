@@ -1,0 +1,57 @@
+2023-09-20 20:48:02 INFO: 
+*************** ALL_FEATURES ***************
+
+2023-09-20 20:48:02 INFO: {
+   "description": "Training with all available features",
+   "df_train": "../data/feature_selection/raw/df_train.parquet",
+   "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-20 20:48:02 INFO: 
+df_train shape: (2444, 382) 
+ df_test shape: (1048, 382)
+
+2023-09-20 20:48:02 INFO: 
+*************** BORUTA ***************
+
+2023-09-20 20:48:02 INFO: {
+   "description": "Training with features selected by the Boruta Feature Selection",
+   "df_train": "../data/feature_selection/boruta/df_train.parquet",
+   "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-20 20:48:02 INFO: 
+df_train shape: (2444, 7) 
+ df_test shape: (1048, 7)
+
+2023-09-20 20:48:02 INFO: 
+*************** FS ***************
+
+2023-09-20 20:48:02 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs/df_train.parquet",
+   "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-20 20:48:02 INFO: 
+df_train shape: (2444, 13) 
+ df_test shape: (1048, 13)
+
+2023-09-20 20:48:02 INFO: 
+*************** FS_MUST ***************
+
+2023-09-20 20:48:02 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet",
+   "imbalanced_sampler": "SMOTEENN(random_state=42)"
+}
+2023-09-20 20:48:02 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-20 20:48:02 INFO: *************** ALL_FEATURES ***************
+2023-09-20 20:48:02 INFO: {
+    "description": "Training with all available features",
+    "df_train": "../data/feature_selection/raw/df_train.parquet",
+    "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-20 20:48:03 INFO: df_train shape: (2444, 382)
+2023-09-20 20:48:03 INFO: df_test shape: (1048, 382)

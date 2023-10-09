@@ -1,0 +1,2372 @@
+2023-09-20 22:30:57 INFO: 
+*************** ALL_FEATURES ***************
+
+2023-09-20 22:30:57 INFO: {
+   "description": "Training with all available features",
+   "df_train": "../data/feature_selection/raw/df_train.parquet",
+   "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-20 22:30:57 INFO: 
+df_train shape: (2444, 382) 
+ df_test shape: (1048, 382)
+
+2023-09-20 22:30:57 INFO: 
+*************** BORUTA ***************
+
+2023-09-20 22:30:57 INFO: {
+   "description": "Training with features selected by the Boruta Feature Selection",
+   "df_train": "../data/feature_selection/boruta/df_train.parquet",
+   "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-20 22:30:57 INFO: 
+df_train shape: (2444, 7) 
+ df_test shape: (1048, 7)
+
+2023-09-20 22:30:57 INFO: 
+*************** FS ***************
+
+2023-09-20 22:30:57 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs/df_train.parquet",
+   "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-20 22:30:57 INFO: 
+df_train shape: (2444, 13) 
+ df_test shape: (1048, 13)
+
+2023-09-20 22:30:57 INFO: 
+*************** FS_MUST ***************
+
+2023-09-20 22:30:57 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet",
+   "imbalanced_sampler": "SMOTEENN(random_state=42)"
+}
+2023-09-20 22:30:57 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-20 22:30:57 INFO: *************** ALL_FEATURES ***************
+2023-09-20 22:30:57 INFO: {
+    "description": "Training with all available features",
+    "df_train": "../data/feature_selection/raw/df_train.parquet",
+    "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-20 22:30:57 INFO: df_train shape: (2444, 382)
+2023-09-20 22:30:57 INFO: df_test shape: (1048, 382)
+2023-09-20 22:52:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkgmjce2p/assets
+2023-09-20 22:52:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6l4gz7lc/assets
+2023-09-20 22:52:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu7wigc9g/assets
+2023-09-20 22:52:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpskjp3mpq/assets
+2023-09-20 22:52:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp81hxnzoe/assets
+2023-09-20 22:52:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpshzew6ma/assets
+2023-09-20 22:52:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp276n_git/assets
+2023-09-20 22:52:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4hyrnah9/assets
+2023-09-20 22:52:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppmjjc8vg/assets
+2023-09-20 22:52:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsa1ahea4/assets
+2023-09-20 22:52:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppydpsuep/assets
+2023-09-20 22:53:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdgo7kb3e/assets
+2023-09-20 22:53:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz35unjk6/assets
+2023-09-20 22:53:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplxs__0xl/assets
+2023-09-20 22:53:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpygf13pgf/assets
+2023-09-20 22:53:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo3vvo2pi/assets
+2023-09-20 22:53:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2mp_xvl3/assets
+2023-09-20 22:53:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmkr7to2k/assets
+2023-09-20 22:53:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn5ti_dgf/assets
+2023-09-20 22:53:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsje8kl_5/assets
+2023-09-20 22:53:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5gjqfmt0/assets
+2023-09-20 22:53:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2sq9q1kw/assets
+2023-09-20 22:54:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpala4jes6/assets
+2023-09-20 22:54:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprbvxl9cg/assets
+2023-09-20 22:54:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9z4fisy_/assets
+2023-09-20 22:54:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprzxei7d6/assets
+2023-09-20 22:54:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvx8cmj1b/assets
+2023-09-20 22:54:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2kcnlcmg/assets
+2023-09-20 22:54:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplu5c7i3r/assets
+2023-09-20 22:54:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphymoqs5b/assets
+2023-09-20 22:54:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgu0yj7lj/assets
+2023-09-20 22:54:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2kbyp043/assets
+2023-09-20 22:54:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl0_arrg9/assets
+2023-09-20 22:54:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjcpoghpn/assets
+2023-09-20 22:54:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3enpf85r/assets
+2023-09-20 22:54:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxs906lyz/assets
+2023-09-20 22:54:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu71yp7n6/assets
+2023-09-20 22:54:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi_pgvlgu/assets
+2023-09-20 22:54:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5975ksye/assets
+2023-09-20 22:54:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq8eeq66n/assets
+2023-09-20 22:54:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz4q3axrb/assets
+2023-09-20 22:54:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppojyzl2_/assets
+2023-09-20 22:54:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu0ub80wf/assets
+2023-09-20 22:54:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzs3r5fs4/assets
+2023-09-20 22:55:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4e13l8vu/assets
+2023-09-20 22:55:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwn9m2csp/assets
+2023-09-20 22:55:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9yg55sn5/assets
+2023-09-20 22:55:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptyflz0su/assets
+2023-09-20 22:55:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo5v5ii7b/assets
+2023-09-20 22:55:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz5shno35/assets
+2023-09-20 22:55:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmasjsv6t/assets
+2023-09-20 22:55:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfl6mwtxn/assets
+2023-09-20 22:55:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp7hflxxk/assets
+2023-09-20 22:55:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp50kiu26d/assets
+2023-09-20 22:55:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1pen1j5p/assets
+2023-09-20 22:55:59 INFO: *************** BORUTA ***************
+2023-09-20 22:55:59 INFO: {
+    "description": "Training with features selected by the Boruta Feature Selection",
+    "df_train": "../data/feature_selection/boruta/df_train.parquet",
+    "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-20 22:55:59 INFO: df_train shape: (2444, 7)
+2023-09-20 22:55:59 INFO: df_test shape: (1048, 7)
+2023-09-20 22:58:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvm6g1ytc/assets
+2023-09-20 22:58:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplyy1gnqb/assets
+2023-09-20 22:58:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5vzmvi5_/assets
+2023-09-20 22:58:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmg_vp63r/assets
+2023-09-20 22:58:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpml2xf9b1/assets
+2023-09-20 22:58:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt32unw6a/assets
+2023-09-20 22:58:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpklyh3f8k/assets
+2023-09-20 22:58:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5wot0lmn/assets
+2023-09-20 22:58:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpami_qi6c/assets
+2023-09-20 22:58:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp23tnmd9t/assets
+2023-09-20 22:58:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn75n43yi/assets
+2023-09-20 22:59:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpszf9z6xl/assets
+2023-09-20 22:59:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnpbn6r3b/assets
+2023-09-20 22:59:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpodqqtrzm/assets
+2023-09-20 22:59:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqj0u43lu/assets
+2023-09-20 22:59:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx3tuet8m/assets
+2023-09-20 22:59:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp44x6l65y/assets
+2023-09-20 22:59:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppptxi1hg/assets
+2023-09-20 22:59:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_4vd1cdh/assets
+2023-09-20 22:59:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8tuqyp9r/assets
+2023-09-20 22:59:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaggb0e9p/assets
+2023-09-20 22:59:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe99_mbnl/assets
+2023-09-20 23:00:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6zpye72d/assets
+2023-09-20 23:00:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0z48fzz9/assets
+2023-09-20 23:00:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvl2b0e8d/assets
+2023-09-20 23:00:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv29l958s/assets
+2023-09-20 23:00:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmb_q7s_b/assets
+2023-09-20 23:00:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp84mipapn/assets
+2023-09-20 23:00:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp70b89krr/assets
+2023-09-20 23:00:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbs3id2m8/assets
+2023-09-20 23:00:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwm9u55as/assets
+2023-09-20 23:00:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1920qbpx/assets
+2023-09-20 23:00:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp22scpzx5/assets
+2023-09-20 23:01:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplk4nni7o/assets
+2023-09-20 23:01:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfyclttt7/assets
+2023-09-20 23:01:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplwdqxp3f/assets
+2023-09-20 23:01:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbjlj0v0i/assets
+2023-09-20 23:01:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmps0clhp1s/assets
+2023-09-20 23:01:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx93k9inp/assets
+2023-09-20 23:01:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkimc64lv/assets
+2023-09-20 23:01:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx6cblsgp/assets
+2023-09-20 23:01:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkg3hgt1u/assets
+2023-09-20 23:01:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzj37krzt/assets
+2023-09-20 23:01:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5wirgu_e/assets
+2023-09-20 23:02:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp243vb4uk/assets
+2023-09-20 23:02:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcgk_kt8b/assets
+2023-09-20 23:02:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq6msz2p6/assets
+2023-09-20 23:02:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx8lqcoof/assets
+2023-09-20 23:02:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptr0vx07b/assets
+2023-09-20 23:02:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzz9b4j4_/assets
+2023-09-20 23:02:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzqrjkzrc/assets
+2023-09-20 23:02:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwtohjrw_/assets
+2023-09-20 23:02:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpah3kuuvm/assets
+2023-09-20 23:02:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdtcjkqg6/assets
+2023-09-20 23:02:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp05ndchi9/assets
+2023-09-20 23:02:36 INFO: *************** FS ***************
+2023-09-20 23:02:36 INFO: {
+    "description": "Training with features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs/df_train.parquet",
+    "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-20 23:02:36 INFO: df_train shape: (2444, 13)
+2023-09-20 23:02:36 INFO: df_test shape: (1048, 13)
+2023-09-20 23:05:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_v3t1qmy/assets
+2023-09-20 23:05:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpajijpoai/assets
+2023-09-20 23:05:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvzj4d8vf/assets
+2023-09-20 23:05:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo71y_ofm/assets
+2023-09-20 23:05:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkkb_u7ll/assets
+2023-09-20 23:05:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1ayqz7pk/assets
+2023-09-20 23:05:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxbehk4f5/assets
+2023-09-20 23:05:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp78hshg0i/assets
+2023-09-20 23:05:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk5b1qhcy/assets
+2023-09-20 23:05:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpggbkez7t/assets
+2023-09-20 23:05:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpos5xw7pj/assets
+2023-09-20 23:07:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpozar8iii/assets
+2023-09-20 23:07:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8ujuokv8/assets
+2023-09-20 23:07:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5ua2lssp/assets
+2023-09-20 23:07:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4mlyzg5f/assets
+2023-09-20 23:07:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiqvfxbjj/assets
+2023-09-20 23:07:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj6ew__d0/assets
+2023-09-20 23:07:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkw96tlgc/assets
+2023-09-20 23:07:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc5bgiw5h/assets
+2023-09-20 23:07:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr1ohys3z/assets
+2023-09-20 23:07:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0twi6pk0/assets
+2023-09-20 23:07:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdxu_5qh3/assets
+2023-09-20 23:08:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmdgbcwp1/assets
+2023-09-20 23:08:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp528qeuwp/assets
+2023-09-20 23:08:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphdo3s7ad/assets
+2023-09-20 23:08:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmkdufoio/assets
+2023-09-20 23:08:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpms5enlrs/assets
+2023-09-20 23:08:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmiyzml2c/assets
+2023-09-20 23:08:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyuqnr1c2/assets
+2023-09-20 23:08:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp09hhjrg1/assets
+2023-09-20 23:08:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt2pe1f5m/assets
+2023-09-20 23:08:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppt_zq9pb/assets
+2023-09-20 23:08:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn4tj7fob/assets
+2023-09-20 23:10:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpoon1p3dt/assets
+2023-09-20 23:10:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprt9jy964/assets
+2023-09-20 23:10:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm68f6dqe/assets
+2023-09-20 23:10:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6b3zvjo1/assets
+2023-09-20 23:10:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfozm55ix/assets
+2023-09-20 23:10:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpynh3u634/assets
+2023-09-20 23:10:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg70ms5cf/assets
+2023-09-20 23:10:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk0f9qgcj/assets
+2023-09-20 23:10:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsa5x2n0q/assets
+2023-09-20 23:10:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbth_mwbw/assets
+2023-09-20 23:10:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmps42fzs6f/assets
+2023-09-20 23:11:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9s986rwk/assets
+2023-09-20 23:11:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzf88nz8l/assets
+2023-09-20 23:11:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8jd6ybr4/assets
+2023-09-20 23:11:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp04_p51ly/assets
+2023-09-20 23:11:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcy9dvry1/assets
+2023-09-20 23:11:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv__zl7et/assets
+2023-09-20 23:11:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg41ngjei/assets
+2023-09-20 23:11:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptnll8bh5/assets
+2023-09-20 23:11:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp151bm0_y/assets
+2023-09-20 23:11:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1g5cap9a/assets
+2023-09-20 23:11:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxxvaecn4/assets
+2023-09-20 23:11:46 INFO: *************** FS_MUST ***************
+2023-09-20 23:11:46 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+    "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must/df_test.parquet",
+    "imbalanced_sampler": "SMOTEENN(random_state=42)"
+}
+2023-09-20 23:11:46 INFO: df_train shape: (2444, 42)
+2023-09-20 23:11:46 INFO: df_test shape: (1048, 42)
+2023-09-21 06:15:35 INFO: 
+*************** FS_MUST ***************
+
+2023-09-21 06:15:35 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet"
+}
+2023-09-21 06:15:35 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-21 06:15:38 INFO: *************** FS_MUST ***************
+2023-09-21 06:15:38 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+    "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must/df_test.parquet"
+}
+2023-09-21 06:15:38 INFO: df_train shape: (2444, 42)
+2023-09-21 06:15:38 INFO: df_test shape: (1048, 42)
+2023-09-21 06:22:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyvrsolbv/assets
+2023-09-21 06:22:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe8028y2o/assets
+2023-09-21 06:22:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiwbodenp/assets
+2023-09-21 06:22:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjgbli67o/assets
+2023-09-21 06:22:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5cw6h_3_/assets
+2023-09-21 06:22:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr2uxv43d/assets
+2023-09-21 06:22:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp2xympx5/assets
+2023-09-21 06:22:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgrsujjrz/assets
+2023-09-21 06:22:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfe8ewvjg/assets
+2023-09-21 06:22:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz44u8z27/assets
+2023-09-21 06:22:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp72k10n7e/assets
+2023-09-21 06:25:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpael7dgxu/assets
+2023-09-21 06:25:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgos_wgtf/assets
+2023-09-21 06:25:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqa0uozru/assets
+2023-09-21 06:25:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptttehmyv/assets
+2023-09-21 06:25:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp355gms43/assets
+2023-09-21 06:25:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp293dqcjs/assets
+2023-09-21 06:25:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbkkch991/assets
+2023-09-21 06:25:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe8l526x5/assets
+2023-09-21 06:25:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqc_k7osl/assets
+2023-09-21 06:25:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptym8bxph/assets
+2023-09-21 06:25:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj0k0gc5q/assets
+2023-09-21 06:27:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb1tc1n8t/assets
+2023-09-21 06:27:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjiu5ooa6/assets
+2023-09-21 06:27:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0ceaf7vn/assets
+2023-09-21 06:27:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_zap05mt/assets
+2023-09-21 06:27:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpis1399di/assets
+2023-09-21 06:27:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5km29guz/assets
+2023-09-21 06:27:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxs_e8fwi/assets
+2023-09-21 06:27:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb50drumm/assets
+2023-09-21 06:27:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuw_tqixf/assets
+2023-09-21 06:27:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpctuntj8c/assets
+2023-09-21 06:27:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnpbxnw24/assets
+2023-09-21 06:29:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkl4qj7tc/assets
+2023-09-21 06:29:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0j90mqhl/assets
+2023-09-21 06:29:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm0qxumwu/assets
+2023-09-21 06:29:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr7hhgry1/assets
+2023-09-21 06:29:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1kq9md37/assets
+2023-09-21 06:29:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6vb7uw0n/assets
+2023-09-21 06:29:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2t4qb4pc/assets
+2023-09-21 06:29:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwpvu_ct_/assets
+2023-09-21 06:29:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf3m0kmi9/assets
+2023-09-21 06:29:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqxr_4pgx/assets
+2023-09-21 06:29:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp145ujnx/assets
+2023-09-21 06:32:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxnzlwuc3/assets
+2023-09-21 06:32:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3tvf48zz/assets
+2023-09-21 06:32:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp99reuulh/assets
+2023-09-21 06:32:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt_pw8jnj/assets
+2023-09-21 06:32:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi__squpt/assets
+2023-09-21 06:32:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0uiu9wrf/assets
+2023-09-21 06:32:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphcwbvwdk/assets
+2023-09-21 06:32:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6pjisvqk/assets
+2023-09-21 06:32:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg4z8su7s/assets
+2023-09-21 06:32:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk37rcegn/assets
+2023-09-21 06:32:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4g4tm113/assets
+2023-09-21 06:37:29 INFO: 
+*************** ALL_FEATURES ***************
+
+2023-09-21 06:37:29 INFO: {
+   "description": "Training with all available features",
+   "df_train": "../data/feature_selection/raw/df_train.parquet",
+   "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-21 06:37:29 INFO: 
+df_train shape: (2444, 382) 
+ df_test shape: (1048, 382)
+
+2023-09-21 06:37:29 INFO: 
+*************** BORUTA ***************
+
+2023-09-21 06:37:29 INFO: {
+   "description": "Training with features selected by the Boruta Feature Selection",
+   "df_train": "../data/feature_selection/boruta/df_train.parquet",
+   "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-21 06:37:29 INFO: 
+df_train shape: (2444, 7) 
+ df_test shape: (1048, 7)
+
+2023-09-21 06:37:29 INFO: 
+*************** FS ***************
+
+2023-09-21 06:37:29 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs/df_train.parquet",
+   "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-21 06:37:29 INFO: 
+df_train shape: (2444, 13) 
+ df_test shape: (1048, 13)
+
+2023-09-21 06:37:29 INFO: 
+*************** FS_MUST ***************
+
+2023-09-21 06:37:29 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet"
+}
+2023-09-21 06:37:29 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-21 06:38:05 INFO: *************** ALL_FEATURES ***************
+2023-09-21 06:38:05 INFO: {
+    "description": "Training with all available features",
+    "df_train": "../data/feature_selection/raw/df_train.parquet",
+    "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-21 06:38:05 INFO: df_train shape: (2444, 382)
+2023-09-21 06:38:05 INFO: df_test shape: (1048, 382)
+2023-09-21 06:40:47 INFO: *************** BORUTA ***************
+2023-09-21 06:40:47 INFO: {
+    "description": "Training with features selected by the Boruta Feature Selection",
+    "df_train": "../data/feature_selection/boruta/df_train.parquet",
+    "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-21 06:40:47 INFO: df_train shape: (2444, 7)
+2023-09-21 06:40:47 INFO: df_test shape: (1048, 7)
+2023-09-21 06:41:08 INFO: *************** FS ***************
+2023-09-21 06:41:08 INFO: {
+    "description": "Training with features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs/df_train.parquet",
+    "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-21 06:41:08 INFO: df_train shape: (2444, 13)
+2023-09-21 06:41:08 INFO: df_test shape: (1048, 13)
+2023-09-21 06:41:29 INFO: *************** FS_MUST ***************
+2023-09-21 06:41:29 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+    "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must/df_test.parquet"
+}
+2023-09-21 06:41:29 INFO: df_train shape: (2444, 42)
+2023-09-21 06:41:29 INFO: df_test shape: (1048, 42)
+2023-09-21 06:44:17 INFO: 
+*************** FM ***************
+
+2023-09-21 06:44:17 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM/df_train.parquet",
+   "df_test": "../data/feature_selection/FM/df_test.parquet"
+}
+2023-09-21 06:44:17 INFO: 
+df_train shape: (2444, 10) 
+ df_test shape: (1048, 10)
+
+2023-09-21 06:46:09 INFO: 
+*************** FM_MUST ***************
+
+2023-09-21 06:46:09 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM_MUST/df_train.parquet",
+   "df_test": "../data/feature_selection/FM_MUST/df_test.parquet"
+}
+2023-09-21 06:46:09 INFO: 
+df_train shape: (2444, 40) 
+ df_test shape: (1048, 40)
+
+2023-09-21 06:46:26 INFO: 
+*************** FM ***************
+
+2023-09-21 06:46:26 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM/df_train.parquet",
+   "df_test": "../data/feature_selection/FM/df_test.parquet"
+}
+2023-09-21 06:46:26 INFO: 
+df_train shape: (2444, 10) 
+ df_test shape: (1048, 10)
+
+2023-09-21 06:46:26 INFO: 
+*************** FM_MUST ***************
+
+2023-09-21 06:46:26 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM_MUST/df_train.parquet",
+   "df_test": "../data/feature_selection/FM_MUST/df_test.parquet"
+}
+2023-09-21 06:46:26 INFO: 
+df_train shape: (2444, 40) 
+ df_test shape: (1048, 40)
+
+2023-09-21 06:46:31 INFO: *************** FM ***************
+2023-09-21 06:46:31 INFO: {
+    "description": "Training with features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/FM/df_train.parquet",
+    "df_test": "../data/feature_selection/FM/df_test.parquet"
+}
+2023-09-21 06:46:31 INFO: df_train shape: (2444, 10)
+2023-09-21 06:46:31 INFO: df_test shape: (1048, 10)
+2023-09-21 06:51:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp15y36i8r/assets
+2023-09-21 06:51:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpua7au7xf/assets
+2023-09-21 06:51:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnch9gtm1/assets
+2023-09-21 06:51:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmparz5d7zs/assets
+2023-09-21 06:51:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8dz_e9u_/assets
+2023-09-21 06:52:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpip6v0f72/assets
+2023-09-21 06:52:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl8xjg6te/assets
+2023-09-21 06:52:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_4ys3cfb/assets
+2023-09-21 06:52:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwf54hi_4/assets
+2023-09-21 06:52:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2dc0x68n/assets
+2023-09-21 06:52:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpect08f_z/assets
+2023-09-21 06:55:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6ae0rces/assets
+2023-09-21 06:55:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppem9t77k/assets
+2023-09-21 06:55:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl_skxg9r/assets
+2023-09-21 06:55:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo9han5yp/assets
+2023-09-21 06:55:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6mlggqjg/assets
+2023-09-21 06:55:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp06ib8nrw/assets
+2023-09-21 06:55:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpehbos6r7/assets
+2023-09-21 06:55:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpai7vzttj/assets
+2023-09-21 06:55:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1b307bmj/assets
+2023-09-21 06:55:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp63rbua35/assets
+2023-09-21 06:55:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwc1tcydz/assets
+2023-09-21 06:58:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpajpf8aay/assets
+2023-09-21 06:58:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6ww40rj8/assets
+2023-09-21 06:58:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa5y8kpu0/assets
+2023-09-21 06:58:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpotgv8ith/assets
+2023-09-21 06:58:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgqk3p4p6/assets
+2023-09-21 06:58:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg99smzkf/assets
+2023-09-21 06:58:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2vjib2ez/assets
+2023-09-21 06:58:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfilrkmtf/assets
+2023-09-21 06:58:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp18e3nikm/assets
+2023-09-21 06:58:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqxl8zdly/assets
+2023-09-21 06:58:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpd617mrri/assets
+2023-09-21 07:01:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa19kbwox/assets
+2023-09-21 07:01:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgbporg0u/assets
+2023-09-21 07:01:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprltz0dia/assets
+2023-09-21 07:01:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsd8f611s/assets
+2023-09-21 07:01:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2attz4tc/assets
+2023-09-21 07:01:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo5tcz9_d/assets
+2023-09-21 07:01:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptstz_28k/assets
+2023-09-21 07:01:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpln_hkoxb/assets
+2023-09-21 07:01:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc9fn5jix/assets
+2023-09-21 07:01:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu4gyk4iy/assets
+2023-09-21 07:01:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5oppk7qc/assets
+2023-09-21 07:05:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpey7tvk5w/assets
+2023-09-21 07:05:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx1w989x2/assets
+2023-09-21 07:05:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfu48p7q9/assets
+2023-09-21 07:05:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkwmp9kir/assets
+2023-09-21 07:05:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphlsbc97w/assets
+2023-09-21 07:05:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpes87zbgl/assets
+2023-09-21 07:05:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplx4p5ndm/assets
+2023-09-21 07:05:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1f_whk24/assets
+2023-09-21 07:05:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp868wgb9o/assets
+2023-09-21 07:05:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx9nx19_p/assets
+2023-09-21 07:05:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7lnthzk9/assets
+2023-09-21 07:05:17 INFO: *************** FM_MUST ***************
+2023-09-21 07:05:17 INFO: {
+    "description": "Training with features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/FM_MUST/df_train.parquet",
+    "df_test": "../data/feature_selection/FM_MUST/df_test.parquet"
+}
+2023-09-21 07:05:17 INFO: df_train shape: (2444, 40)
+2023-09-21 07:05:17 INFO: df_test shape: (1048, 40)
+2023-09-21 07:13:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcdymgl_5/assets
+2023-09-21 07:13:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpoyjfjsus/assets
+2023-09-21 07:13:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2b7q8mk8/assets
+2023-09-21 07:13:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa0uyv5tj/assets
+2023-09-21 07:13:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf37a3pjd/assets
+2023-09-21 07:13:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7xfem01k/assets
+2023-09-21 07:13:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsjsc6u9f/assets
+2023-09-21 07:13:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1fpt6amy/assets
+2023-09-21 07:13:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8v1ope2p/assets
+2023-09-21 07:13:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsbk5lxp2/assets
+2023-09-21 07:13:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptucg_vm3/assets
+2023-09-21 07:19:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphxp2ti8l/assets
+2023-09-21 07:19:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp80lcwvjr/assets
+2023-09-21 07:19:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9cpwuny_/assets
+2023-09-21 07:19:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp136e6x6s/assets
+2023-09-21 07:19:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5rqhkw6z/assets
+2023-09-21 07:19:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnnzn6p6l/assets
+2023-09-21 07:19:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxkfdd1oe/assets
+2023-09-21 07:19:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprhmbtaoj/assets
+2023-09-21 07:19:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphmx1mn88/assets
+2023-09-21 07:19:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyxb53vt8/assets
+2023-09-21 07:19:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphp0an9bp/assets
+2023-09-21 07:22:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprb8vpj09/assets
+2023-09-21 07:22:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb0w2lxjx/assets
+2023-09-21 07:22:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpde53zeg2/assets
+2023-09-21 07:22:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxcqh3p2g/assets
+2023-09-21 07:22:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkf2vtwr2/assets
+2023-09-21 07:22:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg1i13ob5/assets
+2023-09-21 07:22:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptcux4zbi/assets
+2023-09-21 07:22:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6zqbiftr/assets
+2023-09-21 07:22:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx_7z8v2o/assets
+2023-09-21 07:22:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyr2g2mv5/assets
+2023-09-21 07:22:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3qohc1wq/assets
+2023-09-21 07:25:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptrzgndlv/assets
+2023-09-21 07:25:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjg2vrny8/assets
+2023-09-21 07:25:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdw56shfl/assets
+2023-09-21 07:25:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp01staq_6/assets
+2023-09-21 07:25:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi9d61x55/assets
+2023-09-21 07:25:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz6f03gu3/assets
+2023-09-21 07:25:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr11q2yjp/assets
+2023-09-21 07:25:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkpbyav5q/assets
+2023-09-21 07:25:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptb3q2nu3/assets
+2023-09-21 07:25:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz2daajsi/assets
+2023-09-21 07:25:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpodv5u6qz/assets
+2023-09-21 07:29:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6lfj2drk/assets
+2023-09-21 07:29:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzp3l68_2/assets
+2023-09-21 07:29:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvv13xn2k/assets
+2023-09-21 07:29:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9re9b4i7/assets
+2023-09-21 07:29:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8zkww2ar/assets
+2023-09-21 07:29:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8n2byrg2/assets
+2023-09-21 07:29:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5012k6id/assets
+2023-09-21 07:29:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpspkv_6hz/assets
+2023-09-21 07:29:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuvqpshzt/assets
+2023-09-21 07:29:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp56b4kwif/assets
+2023-09-21 07:29:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ydewgjd/assets
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.50 (+/- 0.04) | TEST: 0.50 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.05s (+/- 0.01s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.86 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.86 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.85 (+/- 0.00) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.82 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.49 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.74 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.74 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.01) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.75 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.70 (+/- 0.02) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.53 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.82 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.52 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.51 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.70 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.61 (+/- 0.02) | VALIDATION: 0.47 (+/- 0.03) | TEST: 0.47 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.77 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.09s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.42s (+/- 0.01s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.05) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.01s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.19s (+/- 0.06s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.83 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.30s (+/- 0.09s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.34s (+/- 0.03s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.14s (+/- 0.08s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.83 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.95s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.33s (+/- 0.04s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.58 (+/- 0.04)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.01s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.87s (+/- 0.12s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.02) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.29s (+/- 0.21s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.53 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.53 (+/- 0.02) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.52 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.43 (+/- 0.22) | VALIDATION: 0.43 (+/- 0.22) | TEST: 0.44 (+/- 0.24)
+ - PRECISION              ->  - TRAIN: 0.57 (+/- 0.09) | VALIDATION: 0.52 (+/- 0.19) | TEST: 0.63 (+/- 0.13)
+ - RECALL                 ->  - TRAIN: 0.51 (+/- 0.37) | VALIDATION: 0.51 (+/- 0.37) | TEST: 0.50 (+/- 0.37)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.03) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 14.29s (+/- 1.75s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.51 (+/- 0.03) | TEST: 0.51 (+/- 0.03)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.52 (+/- 0.02) | TEST: 0.51 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.41 (+/- 0.28) | VALIDATION: 0.41 (+/- 0.28) | TEST: 0.43 (+/- 0.29)
+ - PRECISION              ->  - TRAIN: 0.41 (+/- 0.21) | VALIDATION: 0.45 (+/- 0.27) | TEST: 0.46 (+/- 0.24)
+ - RECALL                 ->  - TRAIN: 0.55 (+/- 0.43) | VALIDATION: 0.56 (+/- 0.43) | TEST: 0.55 (+/- 0.43)
+ - ROC_AUC                ->  - TRAIN: 0.57 (+/- 0.07) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.65s (+/- 2.34s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.50 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.51 (+/- 0.02) | TEST: 0.52 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.55 (+/- 0.11) | VALIDATION: 0.54 (+/- 0.11) | TEST: 0.58 (+/- 0.12)
+ - PRECISION              ->  - TRAIN: 0.51 (+/- 0.03) | VALIDATION: 0.49 (+/- 0.02) | TEST: 0.55 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.68 (+/- 0.24) | VALIDATION: 0.67 (+/- 0.25) | TEST: 0.67 (+/- 0.24)
+ - ROC_AUC                ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 13.07s (+/- 1.92s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.51 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.46 (+/- 0.15) | VALIDATION: 0.45 (+/- 0.16) | TEST: 0.47 (+/- 0.17)
+ - PRECISION              ->  - TRAIN: 0.51 (+/- 0.03) | VALIDATION: 0.51 (+/- 0.06) | TEST: 0.55 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.50 (+/- 0.25) | VALIDATION: 0.48 (+/- 0.26) | TEST: 0.49 (+/- 0.26)
+ - ROC_AUC                ->  - TRAIN: 0.54 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.51 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 14.22s (+/- 1.81s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 15.69s (+/- 2.20s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.05s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.64 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.77 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.08s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.51 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.06s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.75 (+/- 0.01) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.75 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.77 (+/- 0.01) | VALIDATION: 0.62 (+/- 0.05) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.66 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.16s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.74 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.58 (+/- 0.01) | VALIDATION: 0.47 (+/- 0.04) | TEST: 0.47 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.79 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.00s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.05) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.71s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.58 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.27s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.24s (+/- 0.03s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.28s (+/- 0.03s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.94 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.37s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.47s (+/- 0.04s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.68s (+/- 0.03s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.31s (+/- 0.02s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.06) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.03) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.58 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.05) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.01s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 12.87s (+/- 0.23s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 4.30s (+/- 0.56s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.57 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.57 (+/- 0.03) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.60 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.07) | TEST: 0.62 (+/- 0.07)
+ - PRECISION              ->  - TRAIN: 0.55 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.59 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.71 (+/- 0.17) | VALIDATION: 0.69 (+/- 0.19) | TEST: 0.69 (+/- 0.18)
+ - ROC_AUC                ->  - TRAIN: 0.63 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.61 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.44s (+/- 2.47s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.55 (+/- 0.05) | VALIDATION: 0.54 (+/- 0.05) | TEST: 0.55 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.04) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.57 (+/- 0.08) | VALIDATION: 0.56 (+/- 0.09) | TEST: 0.58 (+/- 0.10)
+ - PRECISION              ->  - TRAIN: 0.55 (+/- 0.05) | VALIDATION: 0.55 (+/- 0.07) | TEST: 0.59 (+/- 0.04)
+ - RECALL                 ->  - TRAIN: 0.66 (+/- 0.26) | VALIDATION: 0.66 (+/- 0.27) | TEST: 0.65 (+/- 0.27)
+ - ROC_AUC                ->  - TRAIN: 0.63 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 25.45s (+/- 2.88s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.48 (+/- 0.11) | VALIDATION: 0.47 (+/- 0.09) | TEST: 0.47 (+/- 0.13)
+ - PRECISION              ->  - TRAIN: 0.58 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.07) | TEST: 0.60 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.46 (+/- 0.21) | VALIDATION: 0.45 (+/- 0.20) | TEST: 0.44 (+/- 0.22)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.04) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 16.88s (+/- 3.10s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.53 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.53 (+/- 0.02) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.52 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.45 (+/- 0.12) | VALIDATION: 0.44 (+/- 0.11) | TEST: 0.46 (+/- 0.13)
+ - PRECISION              ->  - TRAIN: 0.54 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.10) | TEST: 0.58 (+/- 0.06)
+ - RECALL                 ->  - TRAIN: 0.45 (+/- 0.23) | VALIDATION: 0.44 (+/- 0.23) | TEST: 0.44 (+/- 0.23)
+ - ROC_AUC                ->  - TRAIN: 0.54 (+/- 0.04) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.53 (+/- 0.04)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 12.23s (+/- 1.36s)
+
+2023-09-21 07:29:31 INFO: 
+AVERAGES - FM_MUST_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.99s (+/- 1.58s)
+
+2023-09-21 08:05:25 INFO: 
+*************** ALL_FEATURES ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with all available features",
+   "df_train": "../data/feature_selection/raw/df_train.parquet",
+   "df_test": "../data/feature_selection/raw/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 382) 
+ df_test shape: (1048, 382)
+
+2023-09-21 08:05:25 INFO: 
+*************** BORUTA ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with features selected by the Boruta Feature Selection",
+   "df_train": "../data/feature_selection/boruta/df_train.parquet",
+   "df_test": "../data/feature_selection/boruta/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 7) 
+ df_test shape: (1048, 7)
+
+2023-09-21 08:05:25 INFO: 
+*************** FS ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs/df_train.parquet",
+   "df_test": "../data/feature_selection/fs/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 13) 
+ df_test shape: (1048, 13)
+
+2023-09-21 08:05:25 INFO: 
+*************** FM ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM/df_train.parquet",
+   "df_test": "../data/feature_selection/FM/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 10) 
+ df_test shape: (1048, 10)
+
+2023-09-21 08:05:25 INFO: 
+*************** FM_MUST ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/FM_MUST/df_train.parquet",
+   "df_test": "../data/feature_selection/FM_MUST/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 40) 
+ df_test shape: (1048, 40)
+
+2023-09-21 08:05:25 INFO: 
+*************** FS_MUST ***************
+
+2023-09-21 08:05:25 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector combined with sampler SMOTEENN",
+   "df_train": "../data/feature_selection/fs_must/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must/df_test.parquet"
+}
+2023-09-21 08:05:25 INFO: 
+df_train shape: (2444, 42) 
+ df_test shape: (1048, 42)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.23s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.82 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.06) | TEST: 0.57 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.91 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.36s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.91 (+/- 0.00) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.91 (+/- 0.00) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.90 (+/- 0.00) | VALIDATION: 0.51 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.50 (+/- 0.03) | TEST: 0.53 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.35s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.76 (+/- 0.01) | VALIDATION: 0.64 (+/- 0.02) | TEST: 0.62 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.76 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.62 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.68 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.66 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.51 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.85 (+/- 0.00) | VALIDATION: 0.68 (+/- 0.04) | TEST: 0.67 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.44s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.82 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.69 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.64 (+/- 0.01) | VALIDATION: 0.51 (+/- 0.04) | TEST: 0.51 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.84 (+/- 0.00) | VALIDATION: 0.68 (+/- 0.03) | TEST: 0.67 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.44s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.57 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 7.83s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.65s (+/- 0.11s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.57 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.60s (+/- 0.29s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.62s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.91s (+/- 0.30s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 11.42s (+/- 0.20s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 7.12s (+/- 0.40s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.65 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.67 (+/- 0.03) | TEST: 0.66 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.85s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.07) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.58 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.71 (+/- 0.06) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.57 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.71 (+/- 0.03) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.61 (+/- 0.03)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.08) | VALIDATION: 0.56 (+/- 0.05) | TEST: 0.60 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.74 (+/- 0.07) | VALIDATION: 0.61 (+/- 0.09) | TEST: 0.63 (+/- 0.09)
+ - ROC_AUC                ->  - TRAIN: 0.81 (+/- 0.03) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.60 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.26s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.66 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 57.98s (+/- 2.99s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.64 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.63 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 15.62s (+/- 1.30s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.60 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.60 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.50 (+/- 0.07) | VALIDATION: 0.48 (+/- 0.07) | TEST: 0.51 (+/- 0.08)
+ - PRECISION              ->  - TRAIN: 0.64 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.07) | TEST: 0.67 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.42 (+/- 0.10) | VALIDATION: 0.41 (+/- 0.09) | TEST: 0.42 (+/- 0.10)
+ - ROC_AUC                ->  - TRAIN: 0.65 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.05) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.87s (+/- 0.12s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.61 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.61 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.56 (+/- 0.05) | VALIDATION: 0.54 (+/- 0.07) | TEST: 0.56 (+/- 0.05)
+ - PRECISION              ->  - TRAIN: 0.62 (+/- 0.02) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.64 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.52 (+/- 0.10) | VALIDATION: 0.50 (+/- 0.10) | TEST: 0.50 (+/- 0.09)
+ - ROC_AUC                ->  - TRAIN: 0.66 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.05) | TEST: 0.63 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.94s (+/- 0.23s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.62 (+/- 0.02) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.59 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.62 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.56 (+/- 0.04) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.55 (+/- 0.04)
+ - PRECISION              ->  - TRAIN: 0.65 (+/- 0.04) | VALIDATION: 0.60 (+/- 0.06) | TEST: 0.66 (+/- 0.04)
+ - RECALL                 ->  - TRAIN: 0.51 (+/- 0.10) | VALIDATION: 0.47 (+/- 0.09) | TEST: 0.48 (+/- 0.10)
+ - ROC_AUC                ->  - TRAIN: 0.68 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.06) | TEST: 0.64 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.25s (+/- 0.23s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.58 (+/- 0.06) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.55 (+/- 0.04)
+ - BALANCED_ACC           ->  - TRAIN: 0.58 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.56 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.46 (+/- 0.15) | VALIDATION: 0.43 (+/- 0.13) | TEST: 0.46 (+/- 0.15)
+ - PRECISION              ->  - TRAIN: 0.61 (+/- 0.07) | VALIDATION: 0.58 (+/- 0.06) | TEST: 0.63 (+/- 0.05)
+ - RECALL                 ->  - TRAIN: 0.42 (+/- 0.20) | VALIDATION: 0.38 (+/- 0.17) | TEST: 0.41 (+/- 0.19)
+ - ROC_AUC                ->  - TRAIN: 0.63 (+/- 0.08) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.60 (+/- 0.05)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.75s (+/- 0.58s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - ALL_FEATURES_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.65 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.56 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.66 (+/- 0.04) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.52s (+/- 0.14s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.02s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.57 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.57 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.67 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.64 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.03s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.84 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.84 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.57 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.50 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.02s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.57 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.60 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.66 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.80 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.64 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.71 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.59 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.49 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.08s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.94 (+/- 0.01) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.28s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.52 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.13s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.16s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.79 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.83 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.75 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.50 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.20s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.86 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.85 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.51 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.94 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.47s (+/- 0.07s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.79 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.76 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.51 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.91 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.95s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.79 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.78 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.77 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.50 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.97s (+/- 0.06s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.22s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.68 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.68 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.67 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.77 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.09s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.55 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.20s (+/- 0.07s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.84 (+/- 0.02) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.84 (+/- 0.02) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.83 (+/- 0.02) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.87 (+/- 0.02) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.79 (+/- 0.02) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.50 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.32s (+/- 0.06s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.60 (+/- 0.04) | VALIDATION: 0.60 (+/- 0.05) | TEST: 0.58 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.60 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.56 (+/- 0.05) | VALIDATION: 0.55 (+/- 0.07) | TEST: 0.55 (+/- 0.07)
+ - PRECISION              ->  - TRAIN: 0.63 (+/- 0.06) | VALIDATION: 0.61 (+/- 0.07) | TEST: 0.65 (+/- 0.06)
+ - RECALL                 ->  - TRAIN: 0.55 (+/- 0.19) | VALIDATION: 0.54 (+/- 0.20) | TEST: 0.52 (+/- 0.20)
+ - ROC_AUC                ->  - TRAIN: 0.66 (+/- 0.02) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.62 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.49s (+/- 0.09s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.57 (+/- 0.05) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.52 (+/- 0.05)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.05) | TEST: 0.54 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.30 (+/- 0.30) | VALIDATION: 0.30 (+/- 0.29) | TEST: 0.29 (+/- 0.29)
+ - PRECISION              ->  - TRAIN: 0.46 (+/- 0.33) | VALIDATION: 0.35 (+/- 0.29) | TEST: 0.41 (+/- 0.27)
+ - RECALL                 ->  - TRAIN: 0.30 (+/- 0.31) | VALIDATION: 0.30 (+/- 0.30) | TEST: 0.28 (+/- 0.29)
+ - ROC_AUC                ->  - TRAIN: 0.60 (+/- 0.07) | VALIDATION: 0.60 (+/- 0.06) | TEST: 0.60 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 4.47s (+/- 0.85s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.60 (+/- 0.03) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.03)
+ - BALANCED_ACC           ->  - TRAIN: 0.60 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.50 (+/- 0.16) | VALIDATION: 0.50 (+/- 0.16) | TEST: 0.50 (+/- 0.16)
+ - PRECISION              ->  - TRAIN: 0.64 (+/- 0.05) | VALIDATION: 0.66 (+/- 0.13) | TEST: 0.66 (+/- 0.05)
+ - RECALL                 ->  - TRAIN: 0.47 (+/- 0.19) | VALIDATION: 0.47 (+/- 0.20) | TEST: 0.45 (+/- 0.19)
+ - ROC_AUC                ->  - TRAIN: 0.64 (+/- 0.03) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.67s (+/- 0.50s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.55 (+/- 0.07) | VALIDATION: 0.56 (+/- 0.07) | TEST: 0.54 (+/- 0.04)
+ - BALANCED_ACC           ->  - TRAIN: 0.55 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.06) | TEST: 0.54 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.49 (+/- 0.12) | VALIDATION: 0.48 (+/- 0.13) | TEST: 0.49 (+/- 0.13)
+ - PRECISION              ->  - TRAIN: 0.58 (+/- 0.09) | VALIDATION: 0.58 (+/- 0.09) | TEST: 0.61 (+/- 0.07)
+ - RECALL                 ->  - TRAIN: 0.50 (+/- 0.25) | VALIDATION: 0.49 (+/- 0.26) | TEST: 0.48 (+/- 0.27)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.06) | VALIDATION: 0.59 (+/- 0.07) | TEST: 0.58 (+/- 0.04)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 4.14s (+/- 0.51s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - BORUTA_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.53 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 5.00s (+/- 0.32s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.06s (+/- 0.10s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.71 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.71 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.71 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.66 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.79 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.87 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.87 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.02) | VALIDATION: 0.52 (+/- 0.05) | TEST: 0.50 (+/- 0.03)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.75 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.74 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.76 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.54 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.14s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.71 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.59 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.60 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.64 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.63 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.02) | TEST: 0.52 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.00) | VALIDATION: 0.67 (+/- 0.03) | TEST: 0.63 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.08s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.44s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.16s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.18s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.89 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.24s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.94 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.94 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.42s (+/- 0.07s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.08s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.81 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.94 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.97s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.26s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.60 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.04) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.06) | VALIDATION: 0.63 (+/- 0.05) | TEST: 0.60 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.11s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.55s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.02) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.77s (+/- 0.10s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.61 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.02) | VALIDATION: 0.63 (+/- 0.05) | TEST: 0.64 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.58 (+/- 0.02) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.74 (+/- 0.08) | VALIDATION: 0.72 (+/- 0.10) | TEST: 0.68 (+/- 0.07)
+ - ROC_AUC                ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.66 (+/- 0.04) | TEST: 0.64 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 6.29s (+/- 0.59s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.56 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.06) | TEST: 0.55 (+/- 0.04)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.05) | VALIDATION: 0.56 (+/- 0.06) | TEST: 0.55 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.54 (+/- 0.22) | VALIDATION: 0.55 (+/- 0.21) | TEST: 0.55 (+/- 0.22)
+ - PRECISION              ->  - TRAIN: 0.57 (+/- 0.09) | VALIDATION: 0.51 (+/- 0.20) | TEST: 0.54 (+/- 0.20)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.33) | VALIDATION: 0.69 (+/- 0.32) | TEST: 0.66 (+/- 0.33)
+ - ROC_AUC                ->  - TRAIN: 0.66 (+/- 0.03) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 7.50s (+/- 0.94s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.60 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.62 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.05) | TEST: 0.62 (+/- 0.03)
+ - PRECISION              ->  - TRAIN: 0.59 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.63 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.67 (+/- 0.10) | VALIDATION: 0.66 (+/- 0.11) | TEST: 0.63 (+/- 0.09)
+ - ROC_AUC                ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.66 (+/- 0.05) | TEST: 0.64 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 5.47s (+/- 0.51s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.55 (+/- 0.06) | VALIDATION: 0.54 (+/- 0.06) | TEST: 0.54 (+/- 0.04)
+ - BALANCED_ACC           ->  - TRAIN: 0.55 (+/- 0.05) | VALIDATION: 0.54 (+/- 0.06) | TEST: 0.54 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.51 (+/- 0.11) | VALIDATION: 0.50 (+/- 0.11) | TEST: 0.52 (+/- 0.11)
+ - PRECISION              ->  - TRAIN: 0.55 (+/- 0.08) | VALIDATION: 0.55 (+/- 0.10) | TEST: 0.59 (+/- 0.07)
+ - RECALL                 ->  - TRAIN: 0.53 (+/- 0.22) | VALIDATION: 0.51 (+/- 0.23) | TEST: 0.51 (+/- 0.22)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.07) | VALIDATION: 0.57 (+/- 0.08) | TEST: 0.57 (+/- 0.06)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 5.39s (+/- 0.65s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 7.26s (+/- 0.79s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.50 (+/- 0.04) | TEST: 0.50 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.76 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.05s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.86 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.86 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.85 (+/- 0.00) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.82 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.04) | TEST: 0.49 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.04s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.74 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.74 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.01) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.75 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.02) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.70 (+/- 0.02) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.53 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.82 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.02) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.52 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.51 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.70 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.61 (+/- 0.02) | VALIDATION: 0.47 (+/- 0.03) | TEST: 0.47 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.77 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.09s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.42s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.05) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.19s (+/- 0.06s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.83 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.30s (+/- 0.09s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.34s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.14s (+/- 0.08s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.83 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.86 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.93 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.95s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.33s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.02) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.58 (+/- 0.04)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.87s (+/- 0.12s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.02) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.02) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.53 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 3.29s (+/- 0.21s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.53 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.53 (+/- 0.02) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.52 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.43 (+/- 0.22) | VALIDATION: 0.43 (+/- 0.22) | TEST: 0.44 (+/- 0.24)
+ - PRECISION              ->  - TRAIN: 0.57 (+/- 0.09) | VALIDATION: 0.52 (+/- 0.19) | TEST: 0.63 (+/- 0.13)
+ - RECALL                 ->  - TRAIN: 0.51 (+/- 0.37) | VALIDATION: 0.51 (+/- 0.37) | TEST: 0.50 (+/- 0.37)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.03) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 14.29s (+/- 1.75s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.51 (+/- 0.03) | TEST: 0.51 (+/- 0.03)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.52 (+/- 0.02) | TEST: 0.51 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.41 (+/- 0.28) | VALIDATION: 0.41 (+/- 0.28) | TEST: 0.43 (+/- 0.29)
+ - PRECISION              ->  - TRAIN: 0.41 (+/- 0.21) | VALIDATION: 0.45 (+/- 0.27) | TEST: 0.46 (+/- 0.24)
+ - RECALL                 ->  - TRAIN: 0.55 (+/- 0.43) | VALIDATION: 0.56 (+/- 0.43) | TEST: 0.55 (+/- 0.43)
+ - ROC_AUC                ->  - TRAIN: 0.57 (+/- 0.07) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.54 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.65s (+/- 2.34s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.03) | VALIDATION: 0.50 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.51 (+/- 0.02) | TEST: 0.52 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.55 (+/- 0.11) | VALIDATION: 0.54 (+/- 0.11) | TEST: 0.58 (+/- 0.12)
+ - PRECISION              ->  - TRAIN: 0.51 (+/- 0.03) | VALIDATION: 0.49 (+/- 0.02) | TEST: 0.55 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.68 (+/- 0.24) | VALIDATION: 0.67 (+/- 0.25) | TEST: 0.67 (+/- 0.24)
+ - ROC_AUC                ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 13.07s (+/- 1.92s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.51 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.52 (+/- 0.02) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.51 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.46 (+/- 0.15) | VALIDATION: 0.45 (+/- 0.16) | TEST: 0.47 (+/- 0.17)
+ - PRECISION              ->  - TRAIN: 0.51 (+/- 0.03) | VALIDATION: 0.51 (+/- 0.06) | TEST: 0.55 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.50 (+/- 0.25) | VALIDATION: 0.48 (+/- 0.26) | TEST: 0.49 (+/- 0.26)
+ - ROC_AUC                ->  - TRAIN: 0.54 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.51 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 14.22s (+/- 1.81s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.02) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.02) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 15.69s (+/- 2.20s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.05s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.64 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.77 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.08s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.02) | TEST: 0.54 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.51 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.06s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.75 (+/- 0.01) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.75 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.73 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.77 (+/- 0.01) | VALIDATION: 0.62 (+/- 0.05) | TEST: 0.63 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.66 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.16s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.65 (+/- 0.01) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.53 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.74 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.58 (+/- 0.01) | VALIDATION: 0.47 (+/- 0.04) | TEST: 0.47 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.79 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.05) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.71s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.58 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.27s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.24s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.28s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.94 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.37s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.47s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.90 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.68s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.31s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.70 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.69 (+/- 0.06) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.69 (+/- 0.03) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.58 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.78 (+/- 0.05) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 12.87s (+/- 0.23s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.05) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 4.30s (+/- 0.56s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.57 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.57 (+/- 0.03) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.60 (+/- 0.05) | VALIDATION: 0.59 (+/- 0.07) | TEST: 0.62 (+/- 0.07)
+ - PRECISION              ->  - TRAIN: 0.55 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.03) | TEST: 0.59 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.71 (+/- 0.17) | VALIDATION: 0.69 (+/- 0.19) | TEST: 0.69 (+/- 0.18)
+ - ROC_AUC                ->  - TRAIN: 0.63 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.61 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.44s (+/- 2.47s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.55 (+/- 0.05) | VALIDATION: 0.54 (+/- 0.05) | TEST: 0.55 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.04) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.57 (+/- 0.08) | VALIDATION: 0.56 (+/- 0.09) | TEST: 0.58 (+/- 0.10)
+ - PRECISION              ->  - TRAIN: 0.55 (+/- 0.05) | VALIDATION: 0.55 (+/- 0.07) | TEST: 0.59 (+/- 0.04)
+ - RECALL                 ->  - TRAIN: 0.66 (+/- 0.26) | VALIDATION: 0.66 (+/- 0.27) | TEST: 0.65 (+/- 0.27)
+ - ROC_AUC                ->  - TRAIN: 0.63 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 25.45s (+/- 2.88s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.54 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.55 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.48 (+/- 0.11) | VALIDATION: 0.47 (+/- 0.09) | TEST: 0.47 (+/- 0.13)
+ - PRECISION              ->  - TRAIN: 0.58 (+/- 0.04) | VALIDATION: 0.57 (+/- 0.07) | TEST: 0.60 (+/- 0.03)
+ - RECALL                 ->  - TRAIN: 0.46 (+/- 0.21) | VALIDATION: 0.45 (+/- 0.20) | TEST: 0.44 (+/- 0.22)
+ - ROC_AUC                ->  - TRAIN: 0.59 (+/- 0.04) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.03)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 16.88s (+/- 3.10s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.53 (+/- 0.03) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - BALANCED_ACC           ->  - TRAIN: 0.53 (+/- 0.02) | VALIDATION: 0.52 (+/- 0.03) | TEST: 0.52 (+/- 0.02)
+ - F1                     ->  - TRAIN: 0.45 (+/- 0.12) | VALIDATION: 0.44 (+/- 0.11) | TEST: 0.46 (+/- 0.13)
+ - PRECISION              ->  - TRAIN: 0.54 (+/- 0.06) | VALIDATION: 0.55 (+/- 0.10) | TEST: 0.58 (+/- 0.06)
+ - RECALL                 ->  - TRAIN: 0.45 (+/- 0.23) | VALIDATION: 0.44 (+/- 0.23) | TEST: 0.44 (+/- 0.23)
+ - ROC_AUC                ->  - TRAIN: 0.54 (+/- 0.04) | VALIDATION: 0.53 (+/- 0.05) | TEST: 0.53 (+/- 0.04)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 12.23s (+/- 1.36s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FM_MUST_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 17.99s (+/- 1.58s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DUMMY:
+ - ACCURACY               ->  - TRAIN: 0.52 (+/- 0.00) | VALIDATION: 0.52 (+/- 0.00) | TEST: 0.47 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - RECALL                 ->  - TRAIN: 0.00 (+/- 0.00) | VALIDATION: 0.00 (+/- 0.00) | TEST: 0.00 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.50 (+/- 0.00) | VALIDATION: 0.50 (+/- 0.00) | TEST: 0.50 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.06s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_LOGISTICREGRESSION:
+ - ACCURACY               ->  - TRAIN: 0.72 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.72 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.69 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.02) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.79 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.08s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DECISIONTREECLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.00) | VALIDATION: 0.54 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.85 (+/- 0.01) | VALIDATION: 0.53 (+/- 0.04) | TEST: 0.52 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.06s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_RANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.74 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.74 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.76 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.65 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.68 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.03) | TEST: 0.54 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.83 (+/- 0.00) | VALIDATION: 0.67 (+/- 0.04) | TEST: 0.64 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.17s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_EXTRATREESCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.72 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.59 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.71 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.00)
+ - F1                     ->  - TRAIN: 0.68 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.56 (+/- 0.00)
+ - PRECISION              ->  - TRAIN: 0.74 (+/- 0.01) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.65 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.62 (+/- 0.01) | VALIDATION: 0.54 (+/- 0.04) | TEST: 0.49 (+/- 0.00)
+ - ROC_AUC                ->  - TRAIN: 0.79 (+/- 0.00) | VALIDATION: 0.67 (+/- 0.05) | TEST: 0.65 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.12s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_GRADIENTBOOSTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.95 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.71s (+/- 0.01s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_XGBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.28s (+/- 0.03s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_XGBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.62 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.27s (+/- 0.07s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_LGBMCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.94 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.88 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.55 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.97 (+/- 0.00) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.33s (+/- 0.08s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_LGBMCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.96 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.94 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.40s (+/- 0.04s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_CATBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.93 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.92 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.96 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.89 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 2.56s (+/- 0.15s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_CATBOOSTCLASSIFIER_DEFAULT:
+ - ACCURACY               ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.88 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.87 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.91 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.84 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.95 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 1.76s (+/- 0.02s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_BALANCEDRANDOMFORESTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.62 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.04) | TEST: 0.63 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.35s (+/- 0.08s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_RUSBOOSTCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.72 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.03) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.70 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.03) | TEST: 0.59 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.71 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.03) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.70 (+/- 0.01) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 0.80 (+/- 0.01) | VALIDATION: 0.63 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 0.16s (+/- 0.00s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_VOTINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.58 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.57 (+/- 0.04) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 13.57s (+/- 0.48s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_STACKINGCLASSIFIER:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.57 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.01) | VALIDATION: 0.58 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.01) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.56 (+/- 0.05) | TEST: 0.56 (+/- 0.01)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.61 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 4.30s (+/- 0.45s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DNN_01:
+ - ACCURACY               ->  - TRAIN: 0.60 (+/- 0.02) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.60 (+/- 0.02) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.59 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.64 (+/- 0.03) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.66 (+/- 0.03)
+ - PRECISION              ->  - TRAIN: 0.56 (+/- 0.03) | VALIDATION: 0.56 (+/- 0.03) | TEST: 0.60 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.76 (+/- 0.10) | VALIDATION: 0.77 (+/- 0.13) | TEST: 0.73 (+/- 0.10)
+ - ROC_AUC                ->  - TRAIN: 0.66 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.05) | TEST: 0.64 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 9.10s (+/- 0.92s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DNN_02:
+ - ACCURACY               ->  - TRAIN: 0.56 (+/- 0.05) | VALIDATION: 0.55 (+/- 0.04) | TEST: 0.57 (+/- 0.04)
+ - BALANCED_ACC           ->  - TRAIN: 0.57 (+/- 0.05) | VALIDATION: 0.56 (+/- 0.04) | TEST: 0.56 (+/- 0.04)
+ - F1                     ->  - TRAIN: 0.57 (+/- 0.19) | VALIDATION: 0.56 (+/- 0.18) | TEST: 0.58 (+/- 0.20)
+ - PRECISION              ->  - TRAIN: 0.56 (+/- 0.06) | VALIDATION: 0.54 (+/- 0.06) | TEST: 0.60 (+/- 0.05)
+ - RECALL                 ->  - TRAIN: 0.71 (+/- 0.29) | VALIDATION: 0.70 (+/- 0.28) | TEST: 0.69 (+/- 0.29)
+ - ROC_AUC                ->  - TRAIN: 0.65 (+/- 0.03) | VALIDATION: 0.64 (+/- 0.05) | TEST: 0.63 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 13.61s (+/- 1.07s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DNN_03:
+ - ACCURACY               ->  - TRAIN: 0.63 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.60 (+/- 0.00)
+ - BALANCED_ACC           ->  - TRAIN: 0.63 (+/- 0.01) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.61 (+/- 0.02) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.60 (+/- 0.02)
+ - PRECISION              ->  - TRAIN: 0.61 (+/- 0.02) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.65 (+/- 0.02)
+ - RECALL                 ->  - TRAIN: 0.61 (+/- 0.06) | VALIDATION: 0.59 (+/- 0.07) | TEST: 0.57 (+/- 0.06)
+ - ROC_AUC                ->  - TRAIN: 0.67 (+/- 0.01) | VALIDATION: 0.66 (+/- 0.04) | TEST: 0.64 (+/- 0.00)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 9.89s (+/- 0.69s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_DNN_04:
+ - ACCURACY               ->  - TRAIN: 0.57 (+/- 0.04) | VALIDATION: 0.59 (+/- 0.05) | TEST: 0.55 (+/- 0.03)
+ - BALANCED_ACC           ->  - TRAIN: 0.57 (+/- 0.03) | VALIDATION: 0.59 (+/- 0.04) | TEST: 0.56 (+/- 0.03)
+ - F1                     ->  - TRAIN: 0.49 (+/- 0.15) | VALIDATION: 0.51 (+/- 0.13) | TEST: 0.49 (+/- 0.15)
+ - PRECISION              ->  - TRAIN: 0.60 (+/- 0.06) | VALIDATION: 0.64 (+/- 0.13) | TEST: 0.63 (+/- 0.05)
+ - RECALL                 ->  - TRAIN: 0.50 (+/- 0.24) | VALIDATION: 0.50 (+/- 0.24) | TEST: 0.47 (+/- 0.24)
+ - ROC_AUC                ->  - TRAIN: 0.62 (+/- 0.03) | VALIDATION: 0.62 (+/- 0.05) | TEST: 0.61 (+/- 0.02)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 10.32s (+/- 0.89s)
+
+2023-09-21 08:05:56 INFO: 
+AVERAGES - FS_MUST_VOTINGCLASSIFIERDNN_01:
+ - ACCURACY               ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - BALANCED_ACC           ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.61 (+/- 0.04) | TEST: 0.58 (+/- 0.01)
+ - F1                     ->  - TRAIN: 0.98 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.60 (+/- 0.01)
+ - PRECISION              ->  - TRAIN: 0.99 (+/- 0.00) | VALIDATION: 0.60 (+/- 0.04) | TEST: 0.61 (+/- 0.01)
+ - RECALL                 ->  - TRAIN: 0.97 (+/- 0.01) | VALIDATION: 0.60 (+/- 0.03) | TEST: 0.59 (+/- 0.02)
+ - ROC_AUC                ->  - TRAIN: 1.00 (+/- 0.00) | VALIDATION: 0.65 (+/- 0.05) | TEST: 0.62 (+/- 0.01)
+ - FIT TIME FOR EACH FOLD ->  - TRAIN: 13.64s (+/- 1.36s)
+
+2023-09-21 08:07:11 INFO: df_train shape: (2444, 382)
+2023-09-21 08:07:11 INFO: df_test shape: (1048, 382)
+2023-09-21 08:19:39 INFO: df_train shape: (2444, 382)
+2023-09-21 08:19:39 INFO: df_test shape: (1048, 382)
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2023-09-21 08:20:12 INFO: Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

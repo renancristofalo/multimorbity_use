@@ -1,6 +1,6 @@
 import numpy as np
 from category_encoders.target_encoder import TargetEncoder
-from sklearn.base import TransformerMixin
+from sklearn.base import TransformerMixin, BaseEstimator
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -11,7 +11,8 @@ from .outlier_remover import FeatureOutlierRemover
 
 class BypassTransformer(TransformerMixin):
     """Define a custom transformer that can be used as a bypass preprocessing step in a pipeline.
-    This transformer does not do any preprocessing, but can be used to bypass preprocessing"""
+    This transformer does not do any preprocessing, but can be used to bypass preprocessing
+    """
 
     def __init__(self, **kwargs):
         self.hyperparam = kwargs
@@ -21,6 +22,18 @@ class BypassTransformer(TransformerMixin):
 
     def transform(self, X):
         return X  # no transformation
+
+
+# Create a custom transformer to convert sparse matrix to dense array
+class SparseToDenseTransformer(BaseEstimator, TransformerMixin):
+    def transform(self, X, y=None):
+        if isinstance(X, np.ndarray):
+            return X
+        else:
+            return X.toarray()
+
+    def fit(self, X, y=None):
+        return self
 
 
 def select_preprocessor(preprocessor, X, bypass_columns=[]):
@@ -172,7 +185,10 @@ def select_preprocessor(preprocessor, X, bypass_columns=[]):
         categorical_transformer_high_granularity = Pipeline(
             steps=[
                 ("imputer", SimpleImputer(strategy="constant", fill_value="missing")),
-                ("encoder", TargetEncoder(handle_unknown="value"),),
+                (
+                    "encoder",
+                    TargetEncoder(handle_unknown="value"),
+                ),
             ]
         )
 
@@ -196,6 +212,13 @@ def select_preprocessor(preprocessor, X, bypass_columns=[]):
                 ("bypass", bypass_transformer, bypass_columns),
             ],
             remainder="passthrough",
+        )
+
+        preprocessor = Pipeline(
+            steps=[
+                ("preprocessor", preprocessor),
+                ("sparse_to_dense", SparseToDenseTransformer()),
+            ]
         )
 
     elif isinstance(preprocessor, str):
