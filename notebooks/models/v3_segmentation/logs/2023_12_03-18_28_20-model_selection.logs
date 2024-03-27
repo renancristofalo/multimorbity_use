@@ -1,0 +1,703 @@
+2023-12-03 18:28:21 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:28:21 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:29:15 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:29:15 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:29:15 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-03 18:29:34 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:29:34 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:29:34 INFO: *************** idade_10_years ***************
+2023-12-03 18:29:34 INFO: df_train shape: (40, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (18, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (239, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (76, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (315, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (152, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (367, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (163, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (482, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (192, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (482, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (220, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (224, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (96, 51)
+2023-12-03 18:29:34 INFO: df_train shape: (62, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (31, 51)
+2023-12-03 18:29:34 INFO: *************** plano ***************
+2023-12-03 18:29:34 INFO: df_train shape: (0, 51)
+2023-12-03 18:29:34 INFO: df_test shape: (0, 51)
+2023-12-03 18:29:58 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:29:58 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:29:58 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-03 18:30:02 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:30:02 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:30:02 INFO: *************** idade_10_years ***************
+2023-12-03 18:30:02 INFO: df_train shape: (40, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (18, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (239, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (76, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (315, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (152, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (367, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (163, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (482, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (192, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (482, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (220, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (224, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (96, 51)
+2023-12-03 18:30:02 INFO: df_train shape: (62, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (31, 51)
+2023-12-03 18:30:02 INFO: *************** plano ***************
+2023-12-03 18:30:02 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:02 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:30:31 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:30:31 INFO: *************** idade_10_years ***************
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: *************** plano ***************
+2023-12-03 18:30:31 INFO: df_train shape: (0, 51)
+2023-12-03 18:30:31 INFO: df_test shape: (0, 51)
+2023-12-03 18:30:31 INFO: *************** cor2 ***************
+2023-12-03 18:32:30 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:32:30 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:32:30 INFO: *************** idade_10_years ***************
+2023-12-03 18:32:30 INFO: df_train shape: (40, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (18, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (239, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (76, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (315, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (152, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (367, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (163, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (482, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (192, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (482, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (220, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (224, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (96, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (62, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (31, 51)
+2023-12-03 18:32:30 INFO: *************** plano ***************
+2023-12-03 18:32:30 INFO: df_train shape: (1185, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (506, 51)
+2023-12-03 18:32:30 INFO: df_train shape: (1026, 51)
+2023-12-03 18:32:30 INFO: df_test shape: (442, 51)
+2023-12-03 18:32:30 INFO: *************** cor2 ***************
+2023-12-03 18:34:33 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:34:33 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:34:33 INFO: 
+df_train shape: (2211, 51) 
+ df_test shape: (948, 51)
+
+2023-12-03 18:34:39 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:34:39 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:34:39 INFO: *************** idade_10_years ***************
+2023-12-03 18:34:39 INFO: df_train shape: (40, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (18, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (239, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (76, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (315, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (152, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (367, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (163, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (482, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (192, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (482, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (220, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (224, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (96, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (62, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (31, 51)
+2023-12-03 18:34:39 INFO: *************** plano ***************
+2023-12-03 18:34:39 INFO: df_train shape: (1185, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (506, 51)
+2023-12-03 18:34:39 INFO: df_train shape: (1026, 51)
+2023-12-03 18:34:39 INFO: df_test shape: (442, 51)
+2023-12-03 18:34:39 INFO: *************** cor2 ***************
+2023-12-03 18:34:46 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:34:46 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:34:46 INFO: *************** idade_10_years ***************
+2023-12-03 18:34:46 INFO: df_train shape: (40, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (18, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (239, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (76, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (315, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (152, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (367, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (163, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (482, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (192, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (482, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (220, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (224, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (96, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (62, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (31, 51)
+2023-12-03 18:34:46 INFO: *************** plano ***************
+2023-12-03 18:34:46 INFO: df_train shape: (1185, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (506, 51)
+2023-12-03 18:34:46 INFO: df_train shape: (1026, 51)
+2023-12-03 18:34:46 INFO: df_test shape: (442, 51)
+2023-12-03 18:34:46 INFO: *************** cor2 ***************
+2023-12-03 18:36:02 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:36:02 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:36:02 INFO: *************** idade_10_years ***************
+2023-12-03 18:36:02 INFO: df_train shape: (40, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (18, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (239, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (76, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (315, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (152, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (367, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (163, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (482, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (192, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (482, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (220, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (224, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (96, 52)
+2023-12-03 18:36:02 INFO: df_train shape: (62, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (31, 52)
+2023-12-03 18:36:02 INFO: *************** plano ***************
+2023-12-03 18:36:02 INFO: df_train shape: (1185, 51)
+2023-12-03 18:36:02 INFO: df_test shape: (506, 51)
+2023-12-03 18:36:02 INFO: df_train shape: (1026, 51)
+2023-12-03 18:36:02 INFO: df_test shape: (442, 51)
+2023-12-03 18:36:02 INFO: *************** cor2 ***************
+2023-12-03 18:36:02 INFO: df_train shape: (2211, 52)
+2023-12-03 18:36:02 INFO: df_test shape: (948, 52)
+2023-12-03 18:36:02 INFO: *************** multi_calc ***************
+2023-12-03 18:37:53 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:37:53 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:37:53 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-03 18:37:56 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:37:56 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:37:56 INFO: *************** idade_10_years ***************
+2023-12-03 18:37:56 INFO: df_train shape: (40, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (18, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (239, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (76, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (315, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (152, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (367, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (163, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (482, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (192, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (482, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (220, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (224, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (96, 52)
+2023-12-03 18:37:56 INFO: df_train shape: (62, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (31, 52)
+2023-12-03 18:37:56 INFO: *************** plano ***************
+2023-12-03 18:37:56 INFO: df_train shape: (1185, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (506, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (1026, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (442, 51)
+2023-12-03 18:37:56 INFO: *************** cor2 ***************
+2023-12-03 18:37:56 INFO: df_train shape: (2211, 52)
+2023-12-03 18:37:56 INFO: df_test shape: (948, 52)
+2023-12-03 18:37:56 INFO: *************** multi_calc ***************
+2023-12-03 18:37:56 INFO: df_train shape: (676, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (300, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (593, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (250, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (380, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (148, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (235, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (115, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (152, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (57, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (98, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (34, 51)
+2023-12-03 18:37:56 INFO: df_train shape: (77, 51)
+2023-12-03 18:37:56 INFO: df_test shape: (44, 51)
+2023-12-03 18:39:15 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:39:15 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:39:15 INFO: *************** idade_10_years ***************
+2023-12-03 18:39:25 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:39:25 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:39:25 INFO: *************** idade_10_years ***************
+2023-12-03 18:39:25 INFO: df_train shape: (40, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (18, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (239, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (76, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (315, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (152, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (367, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (163, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (482, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (192, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (482, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (220, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (224, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (96, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (62, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (31, 52)
+2023-12-03 18:39:25 INFO: *************** plano ***************
+2023-12-03 18:39:25 INFO: df_train shape: (1185, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (506, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (1026, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (442, 51)
+2023-12-03 18:39:25 INFO: *************** cor2 ***************
+2023-12-03 18:39:25 INFO: df_train shape: (1762, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (759, 52)
+2023-12-03 18:39:25 INFO: df_train shape: (449, 52)
+2023-12-03 18:39:25 INFO: df_test shape: (189, 52)
+2023-12-03 18:39:25 INFO: *************** multi_calc ***************
+2023-12-03 18:39:25 INFO: df_train shape: (676, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (300, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (593, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (250, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (380, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (148, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (235, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (115, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (152, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (57, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (98, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (34, 51)
+2023-12-03 18:39:25 INFO: df_train shape: (77, 51)
+2023-12-03 18:39:25 INFO: df_test shape: (44, 51)
+2023-12-03 18:40:45 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:40:45 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:40:45 INFO: *************** idade_10_years ***************
+2023-12-03 18:40:45 INFO: df_train shape: (40, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (18, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (239, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (76, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (315, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (152, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (367, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (163, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (482, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (192, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (482, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (220, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (224, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (96, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (62, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (31, 52)
+2023-12-03 18:40:45 INFO: *************** plano ***************
+2023-12-03 18:40:45 INFO: df_train shape: (1185, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (506, 51)
+2023-12-03 18:40:45 INFO: df_train shape: (1026, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (442, 51)
+2023-12-03 18:40:45 INFO: *************** cor2 ***************
+2023-12-03 18:40:45 INFO: df_train shape: (1762, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (759, 52)
+2023-12-03 18:40:45 INFO: df_train shape: (449, 52)
+2023-12-03 18:40:45 INFO: df_test shape: (189, 52)
+2023-12-03 18:40:45 INFO: *************** multi_calc ***************
+2023-12-03 18:40:45 INFO: df_train shape: (676, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (300, 51)
+2023-12-03 18:40:45 INFO: df_train shape: (593, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (250, 51)
+2023-12-03 18:40:45 INFO: df_train shape: (380, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (148, 51)
+2023-12-03 18:40:45 INFO: df_train shape: (235, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (115, 51)
+2023-12-03 18:40:45 INFO: df_train shape: (152, 51)
+2023-12-03 18:40:45 INFO: df_test shape: (57, 51)
+2023-12-03 18:40:46 INFO: df_train shape: (98, 51)
+2023-12-03 18:40:46 INFO: df_test shape: (34, 51)
+2023-12-03 18:40:46 INFO: df_train shape: (35, 51)
+2023-12-03 18:40:46 INFO: df_test shape: (19, 51)
+2023-12-03 18:40:46 INFO: df_train shape: (42, 51)
+2023-12-03 18:40:46 INFO: df_test shape: (25, 51)
+2023-12-03 18:43:42 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:43:42 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:43:42 INFO: *************** idade_10_years ***************
+2023-12-03 18:43:42 INFO: df_train shape: (40, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (18, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (239, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (76, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (315, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (152, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (367, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (163, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (482, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (192, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (482, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (220, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (224, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (96, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (62, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (31, 52)
+2023-12-03 18:43:42 INFO: *************** plano ***************
+2023-12-03 18:43:42 INFO: df_train shape: (1185, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (506, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (1026, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (442, 51)
+2023-12-03 18:43:42 INFO: *************** cor2 ***************
+2023-12-03 18:43:42 INFO: df_train shape: (1762, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (759, 52)
+2023-12-03 18:43:42 INFO: df_train shape: (449, 52)
+2023-12-03 18:43:42 INFO: df_test shape: (189, 52)
+2023-12-03 18:43:42 INFO: *************** multi_calc ***************
+2023-12-03 18:43:42 INFO: df_train shape: (676, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (300, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (593, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (250, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (380, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (148, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (235, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (115, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (152, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (57, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (98, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (34, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (35, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (19, 51)
+2023-12-03 18:43:42 INFO: df_train shape: (42, 51)
+2023-12-03 18:43:42 INFO: df_test shape: (25, 51)
+2023-12-03 18:44:05 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 18:44:05 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:44:05 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-03 18:44:07 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:44:07 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:44:07 INFO: *************** idade_10_years ***************
+2023-12-03 18:44:07 INFO: df_train shape: (40, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (18, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (239, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (76, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (315, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (152, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (367, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (163, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (482, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (192, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (482, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (220, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (224, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (96, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (62, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (31, 52)
+2023-12-03 18:44:07 INFO: *************** plano ***************
+2023-12-03 18:44:07 INFO: df_train shape: (1185, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (506, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (1026, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (442, 51)
+2023-12-03 18:44:07 INFO: *************** cor2 ***************
+2023-12-03 18:44:07 INFO: df_train shape: (1762, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (759, 52)
+2023-12-03 18:44:07 INFO: df_train shape: (449, 52)
+2023-12-03 18:44:07 INFO: df_test shape: (189, 52)
+2023-12-03 18:44:07 INFO: *************** multi ***************
+2023-12-03 18:44:07 INFO: df_train shape: (676, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (300, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (593, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (250, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (380, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (148, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (235, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (115, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (152, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (57, 51)
+2023-12-03 18:44:07 INFO: df_train shape: (98, 51)
+2023-12-03 18:44:07 INFO: df_test shape: (34, 51)
+2023-12-03 18:44:08 INFO: df_train shape: (35, 51)
+2023-12-03 18:44:08 INFO: df_test shape: (19, 51)
+2023-12-03 18:44:08 INFO: df_train shape: (42, 51)
+2023-12-03 18:44:08 INFO: df_test shape: (25, 51)
+2023-12-03 18:44:08 INFO: *************** multi2 ***************
+2023-12-03 18:44:08 INFO: df_train shape: (676, 52)
+2023-12-03 18:44:08 INFO: df_test shape: (300, 52)
+2023-12-03 18:44:08 INFO: df_train shape: (593, 52)
+2023-12-03 18:44:08 INFO: df_test shape: (250, 52)
+2023-12-03 18:44:08 INFO: df_train shape: (942, 52)
+2023-12-03 18:44:08 INFO: df_test shape: (398, 52)
+2023-12-03 18:48:46 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:48:46 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:48:46 INFO: *************** idade_10_years ***************
+2023-12-03 18:48:46 INFO: df_train shape: (40, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (18, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (239, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (76, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (315, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (152, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (367, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (163, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (482, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (192, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (482, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (220, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (224, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (96, 51)
+2023-12-03 18:48:46 INFO: df_train shape: (62, 51)
+2023-12-03 18:48:46 INFO: df_test shape: (31, 51)
+2023-12-03 18:48:46 INFO: *************** plano ***************
+2023-12-03 18:48:46 INFO: df_train shape: (1185, 52)
+2023-12-03 18:48:46 INFO: df_test shape: (506, 52)
+2023-12-03 18:48:46 INFO: df_train shape: (1026, 52)
+2023-12-03 18:48:46 INFO: df_test shape: (442, 52)
+2023-12-03 18:48:46 INFO: *************** cor2 ***************
+2023-12-03 18:50:24 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:50:24 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:50:24 INFO: *************** idade_10_years ***************
+2023-12-03 18:50:25 INFO: df_train shape: (40, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (18, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (239, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (76, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (315, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (152, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (367, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (163, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (482, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (192, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (482, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (220, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (224, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (96, 51)
+2023-12-03 18:50:25 INFO: df_train shape: (62, 51)
+2023-12-03 18:50:25 INFO: df_test shape: (31, 51)
+2023-12-03 18:50:25 INFO: *************** plano ***************
+2023-12-03 18:50:25 INFO: df_train shape: (1185, 52)
+2023-12-03 18:50:25 INFO: df_test shape: (506, 52)
+2023-12-03 18:50:25 INFO: df_train shape: (1026, 52)
+2023-12-03 18:50:25 INFO: df_test shape: (442, 52)
+2023-12-03 18:50:25 INFO: *************** cor2 ***************
+2023-12-03 18:51:14 INFO: *************** FS_MUST2 ***************
+2023-12-03 18:51:14 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 18:51:14 INFO: *************** idade_10_years ***************
+2023-12-03 18:51:14 INFO: df_train shape: (40, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (18, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (239, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (76, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (315, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (152, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (367, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (163, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (482, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (192, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (482, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (220, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (224, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (96, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (62, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (31, 52)
+2023-12-03 18:51:14 INFO: *************** plano ***************
+2023-12-03 18:51:14 INFO: df_train shape: (1185, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (506, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (1026, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (442, 52)
+2023-12-03 18:51:14 INFO: *************** cor2 ***************
+2023-12-03 18:51:14 INFO: df_train shape: (1762, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (759, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (449, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (189, 52)
+2023-12-03 18:51:14 INFO: *************** multi ***************
+2023-12-03 18:51:14 INFO: df_train shape: (676, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (300, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (593, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (250, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (380, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (148, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (235, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (115, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (152, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (57, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (98, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (34, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (35, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (19, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (42, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (25, 52)
+2023-12-03 18:51:14 INFO: *************** multi2 ***************
+2023-12-03 18:51:14 INFO: df_train shape: (676, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (300, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (593, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (250, 52)
+2023-12-03 18:51:14 INFO: df_train shape: (942, 52)
+2023-12-03 18:51:14 INFO: df_test shape: (398, 52)
+2023-12-03 19:05:37 INFO: *************** FS_MUST2 ***************
+2023-12-03 19:05:37 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 19:05:37 INFO: *************** idade_10_years ***************
+2023-12-03 19:05:38 INFO: df_train shape: (40, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (18, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (239, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (76, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (315, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (152, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (367, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (163, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (482, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (192, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (482, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (220, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (224, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (96, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (62, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (31, 52)
+2023-12-03 19:05:38 INFO: *************** idade_groups ***************
+2023-12-03 19:05:38 INFO: df_train shape: (594, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (246, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (849, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (355, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (768, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (347, 52)
+2023-12-03 19:05:38 INFO: *************** plano ***************
+2023-12-03 19:05:38 INFO: df_train shape: (1185, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (506, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (1026, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (442, 52)
+2023-12-03 19:05:38 INFO: *************** cor2 ***************
+2023-12-03 19:05:38 INFO: df_train shape: (1762, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (759, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (449, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (189, 52)
+2023-12-03 19:05:38 INFO: *************** multi ***************
+2023-12-03 19:05:38 INFO: df_train shape: (676, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (300, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (593, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (250, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (380, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (148, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (235, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (115, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (152, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (57, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (98, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (34, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (35, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (19, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (42, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (25, 52)
+2023-12-03 19:05:38 INFO: *************** multi2 ***************
+2023-12-03 19:05:38 INFO: df_train shape: (676, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (300, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (593, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (250, 52)
+2023-12-03 19:05:38 INFO: df_train shape: (942, 52)
+2023-12-03 19:05:38 INFO: df_test shape: (398, 52)

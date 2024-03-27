@@ -114,6 +114,6 @@ pronto_atendimento = [
     "aout",
 ]
 
-must_have_features = morbidades + extras + ["idade", "multi_calc"]
+must_have_features = morbidades + extras + ["idade", "multi_calc", "plano", "cor"]
 
 dtypes_dict = {}

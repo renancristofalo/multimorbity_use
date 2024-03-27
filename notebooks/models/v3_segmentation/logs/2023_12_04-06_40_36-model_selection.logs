@@ -1,0 +1,578 @@
+2023-12-04 06:40:36 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-04 06:40:36 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 06:40:36 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-04 06:40:36 INFO: *************** FS_MUST2 ***************
+2023-12-04 06:40:36 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 06:40:36 INFO: *************** plano ***************
+2023-12-04 06:40:36 INFO: df_train shape: (1185, 51)
+2023-12-04 06:40:36 INFO: df_test shape: (506, 51)
+2023-12-04 06:46:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpncncl4k5/assets
+2023-12-04 06:46:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmqmw587g/assets
+2023-12-04 06:46:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpibi12zq9/assets
+2023-12-04 06:46:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdbjeud7i/assets
+2023-12-04 06:46:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppocalz1h/assets
+2023-12-04 06:46:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppzw5kur2/assets
+2023-12-04 06:46:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpovea_7r2/assets
+2023-12-04 06:46:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuupi2b95/assets
+2023-12-04 06:46:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbeisvwq8/assets
+2023-12-04 06:46:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxtd4alvi/assets
+2023-12-04 06:46:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptgk56avi/assets
+2023-12-04 06:47:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp38d3qfef/assets
+2023-12-04 06:47:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm4dqhne8/assets
+2023-12-04 06:47:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9ldja6kc/assets
+2023-12-04 06:47:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptkb16zy3/assets
+2023-12-04 06:47:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpixdt0jja/assets
+2023-12-04 06:47:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzg0z5di_/assets
+2023-12-04 06:47:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwepg1qqm/assets
+2023-12-04 06:47:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpomcl1kq4/assets
+2023-12-04 06:47:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmh7yqil9/assets
+2023-12-04 06:47:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7ytjwyc2/assets
+2023-12-04 06:47:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpachp9i4f/assets
+2023-12-04 06:47:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpke1aungh/assets
+2023-12-04 06:47:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn51efw1o/assets
+2023-12-04 06:47:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmtdutzo1/assets
+2023-12-04 06:47:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy38b8vlw/assets
+2023-12-04 06:47:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn63s0o2x/assets
+2023-12-04 06:47:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpquqy_piv/assets
+2023-12-04 06:47:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4aqmgl53/assets
+2023-12-04 06:47:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdvex2gga/assets
+2023-12-04 06:47:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvudxikqc/assets
+2023-12-04 06:47:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwxv04_cr/assets
+2023-12-04 06:47:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppjvqn94x/assets
+2023-12-04 06:48:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc5c1fpns/assets
+2023-12-04 06:48:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_6jid548/assets
+2023-12-04 06:48:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_26u1y9z/assets
+2023-12-04 06:48:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7bkcsi3r/assets
+2023-12-04 06:48:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptgro_uvt/assets
+2023-12-04 06:48:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9cey4vx9/assets
+2023-12-04 06:48:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxsududpy/assets
+2023-12-04 06:48:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxgrg4agn/assets
+2023-12-04 06:48:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgyjnznl9/assets
+2023-12-04 06:48:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn5x3a4lk/assets
+2023-12-04 06:48:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpty8y7fzy/assets
+2023-12-04 06:49:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpw4suwx_l/assets
+2023-12-04 06:49:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm6eez9cc/assets
+2023-12-04 06:49:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbmhz3vjd/assets
+2023-12-04 06:49:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphk8otwtf/assets
+2023-12-04 06:49:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe7wyy4ws/assets
+2023-12-04 06:49:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmzcn6ukn/assets
+2023-12-04 06:49:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpknfttb6y/assets
+2023-12-04 06:49:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq1rbsr9_/assets
+2023-12-04 06:49:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpykmjh_ir/assets
+2023-12-04 06:49:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp214i_tru/assets
+2023-12-04 06:49:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyg1r3xw1/assets
+2023-12-04 06:49:37 INFO: df_train shape: (1026, 51)
+2023-12-04 06:49:37 INFO: df_test shape: (442, 51)
+2023-12-04 06:55:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9a7swqca/assets
+2023-12-04 06:55:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpquk1hh5p/assets
+2023-12-04 06:55:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb91jsue7/assets
+2023-12-04 06:55:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdtg3x168/assets
+2023-12-04 06:55:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjkyzbjoy/assets
+2023-12-04 06:55:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp871ycj15/assets
+2023-12-04 06:55:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprly9yht5/assets
+2023-12-04 06:55:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp79d4dcf8/assets
+2023-12-04 06:55:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp35elrd8w/assets
+2023-12-04 06:55:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpohj4hxou/assets
+2023-12-04 06:55:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpys_o121z/assets
+2023-12-04 06:55:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp06iczdtq/assets
+2023-12-04 06:55:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqevmdkot/assets
+2023-12-04 06:55:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbcojhueu/assets
+2023-12-04 06:55:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfnv841kh/assets
+2023-12-04 06:56:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpivc3xtos/assets
+2023-12-04 06:56:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwrjz281f/assets
+2023-12-04 06:56:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv988a2w2/assets
+2023-12-04 06:56:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp80kfl8zz/assets
+2023-12-04 06:56:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb2n8wsxe/assets
+2023-12-04 06:56:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc8o8t9jm/assets
+2023-12-04 06:56:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp33bpjl5g/assets
+2023-12-04 06:56:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf9hu3km8/assets
+2023-12-04 06:56:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0e56ep3r/assets
+2023-12-04 06:56:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx4q5eh8w/assets
+2023-12-04 06:56:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfnv8zwg_/assets
+2023-12-04 06:56:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpff3mo_s6/assets
+2023-12-04 06:56:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfrn1cqp0/assets
+2023-12-04 06:56:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsxyh4kgq/assets
+2023-12-04 06:56:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpoupft80i/assets
+2023-12-04 06:56:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9snw05xl/assets
+2023-12-04 06:56:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqwexznp6/assets
+2023-12-04 06:56:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmgufok3m/assets
+2023-12-04 06:57:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4xlgv3dg/assets
+2023-12-04 06:57:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkl7jzj9b/assets
+2023-12-04 06:57:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7ybth_p_/assets
+2023-12-04 06:57:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv0n38l1q/assets
+2023-12-04 06:57:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpen2l5byk/assets
+2023-12-04 06:57:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqqyy3mq8/assets
+2023-12-04 06:57:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgew7lyqw/assets
+2023-12-04 06:57:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg78ptuu4/assets
+2023-12-04 06:57:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1hidvt6g/assets
+2023-12-04 06:57:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwada7gfu/assets
+2023-12-04 06:57:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmproltin1t/assets
+2023-12-04 06:58:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfns_3bzd/assets
+2023-12-04 06:58:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4_zdl_h0/assets
+2023-12-04 06:58:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph9k9wtyk/assets
+2023-12-04 06:58:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3snw6dge/assets
+2023-12-04 06:58:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjfa3g0ll/assets
+2023-12-04 06:58:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpli03iopt/assets
+2023-12-04 06:58:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_5qt6wzt/assets
+2023-12-04 06:58:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg9yi1mnc/assets
+2023-12-04 06:58:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8rj7caw9/assets
+2023-12-04 06:58:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmps7sqss4n/assets
+2023-12-04 06:58:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqe0uqgk4/assets
+2023-12-04 06:58:18 INFO: *************** cor2 ***************
+2023-12-04 06:58:18 INFO: df_train shape: (1762, 51)
+2023-12-04 06:58:18 INFO: df_test shape: (759, 51)
+2023-12-04 07:04:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcworwknw/assets
+2023-12-04 07:04:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpksles91f/assets
+2023-12-04 07:04:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuz3anm30/assets
+2023-12-04 07:04:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf5eluhni/assets
+2023-12-04 07:04:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppmvsezr7/assets
+2023-12-04 07:04:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf0r5gsl9/assets
+2023-12-04 07:04:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0p5o89bc/assets
+2023-12-04 07:04:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsaqzx2gu/assets
+2023-12-04 07:04:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3_ra2jfi/assets
+2023-12-04 07:04:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp_pul4kq/assets
+2023-12-04 07:04:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwvo8ksez/assets
+2023-12-04 07:05:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdx986uk0/assets
+2023-12-04 07:05:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy42b7p6t/assets
+2023-12-04 07:05:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqfg1wa1r/assets
+2023-12-04 07:05:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8zplw7p7/assets
+2023-12-04 07:05:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_tqvsxlq/assets
+2023-12-04 07:05:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1_w2aa79/assets
+2023-12-04 07:05:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfcs_ot02/assets
+2023-12-04 07:05:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmporcl9l9j/assets
+2023-12-04 07:05:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7t8l8i1k/assets
+2023-12-04 07:05:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyyuhavy3/assets
+2023-12-04 07:05:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq45vfds3/assets
+2023-12-04 07:06:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgc0mtvh5/assets
+2023-12-04 07:06:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_oq_c9y1/assets
+2023-12-04 07:06:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyyidgsqo/assets
+2023-12-04 07:06:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxrgr4k2m/assets
+2023-12-04 07:06:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0o8jb1or/assets
+2023-12-04 07:06:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgyf7c2yr/assets
+2023-12-04 07:06:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc3e41_2c/assets
+2023-12-04 07:07:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo0hxopta/assets
+2023-12-04 07:07:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5r4tpcs0/assets
+2023-12-04 07:07:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpycdv6fp7/assets
+2023-12-04 07:07:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4umq_wkq/assets
+2023-12-04 07:08:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcdv2esjc/assets
+2023-12-04 07:08:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo0fgn1ks/assets
+2023-12-04 07:08:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4jbfzoy0/assets
+2023-12-04 07:08:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp815_sjz6/assets
+2023-12-04 07:08:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptkuwstk_/assets
+2023-12-04 07:08:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdz9r5fvo/assets
+2023-12-04 07:08:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4ms3_z15/assets
+2023-12-04 07:08:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpddkkos9l/assets
+2023-12-04 07:08:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk7urs57y/assets
+2023-12-04 07:08:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppi0hbufp/assets
+2023-12-04 07:08:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8tt96lt4/assets
+2023-12-04 07:09:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp726yt1q7/assets
+2023-12-04 07:09:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpeoyne_h6/assets
+2023-12-04 07:09:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3radrbkg/assets
+2023-12-04 07:09:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3j0iv9jk/assets
+2023-12-04 07:09:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqhp2ncpg/assets
+2023-12-04 07:09:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppy9o551i/assets
+2023-12-04 07:09:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkqdnctvs/assets
+2023-12-04 07:09:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5yudt649/assets
+2023-12-04 07:09:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjrb5he_h/assets
+2023-12-04 07:09:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdv6zp6iq/assets
+2023-12-04 07:09:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwdf2xw_w/assets
+2023-12-04 07:09:51 INFO: df_train shape: (449, 51)
+2023-12-04 07:09:51 INFO: df_test shape: (189, 51)
+2023-12-04 07:15:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2sibpewk/assets
+2023-12-04 07:15:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm0txyjy0/assets
+2023-12-04 07:15:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl13xkfhk/assets
+2023-12-04 07:15:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppvye43s5/assets
+2023-12-04 07:15:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7dhplv94/assets
+2023-12-04 07:15:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfy5zs5op/assets
+2023-12-04 07:15:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi3bpsfcu/assets
+2023-12-04 07:15:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8iyop5qu/assets
+2023-12-04 07:15:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy4vounnj/assets
+2023-12-04 07:15:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4drpyfeo/assets
+2023-12-04 07:15:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdanzu3lk/assets
+2023-12-04 07:16:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpok_dod13/assets
+2023-12-04 07:16:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdjo7tonn/assets
+2023-12-04 07:16:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5asu06og/assets
+2023-12-04 07:16:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu0j6w4jt/assets
+2023-12-04 07:16:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1q5ps1xn/assets
+2023-12-04 07:16:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp574fkn0h/assets
+2023-12-04 07:16:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3fpc_wu5/assets
+2023-12-04 07:16:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdvf83d_o/assets
+2023-12-04 07:16:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzcy8ej67/assets
+2023-12-04 07:16:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk3352so2/assets
+2023-12-04 07:16:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzp4wimud/assets
+2023-12-04 07:18:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwtajx74r/assets
+2023-12-04 07:18:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3a1ywqi3/assets
+2023-12-04 07:18:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfww05r5h/assets
+2023-12-04 07:18:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr12iixol/assets
+2023-12-04 07:18:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzt5o0sm9/assets
+2023-12-04 07:18:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwlt1qpua/assets
+2023-12-04 07:18:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyvdbv_no/assets
+2023-12-04 07:18:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy68w5to2/assets
+2023-12-04 07:18:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5s_yyidu/assets
+2023-12-04 07:18:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpedytnlrj/assets
+2023-12-04 07:18:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpujolgbik/assets
+2023-12-04 07:19:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6205qfvz/assets
+2023-12-04 07:19:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpas5cnu_8/assets
+2023-12-04 07:19:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi6633hho/assets
+2023-12-04 07:19:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl554sja2/assets
+2023-12-04 07:19:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph8kzrdtl/assets
+2023-12-04 07:19:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7hlcfkn0/assets
+2023-12-04 07:19:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpigpen2m4/assets
+2023-12-04 07:19:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu8jlvq1i/assets
+2023-12-04 07:19:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmvz1xb6n/assets
+2023-12-04 07:19:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptzt_2qfn/assets
+2023-12-04 07:19:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwuv6wr3i/assets
+2023-12-04 07:20:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq8mwgkn6/assets
+2023-12-04 07:20:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1t8cas2o/assets
+2023-12-04 07:20:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6hy2fxfp/assets
+2023-12-04 07:20:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbgs3b6vh/assets
+2023-12-04 07:20:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiuy5k9nr/assets
+2023-12-04 07:20:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7c_ghkvj/assets
+2023-12-04 07:20:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ef14r29/assets
+2023-12-04 07:21:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwf_xsq47/assets
+2023-12-04 07:21:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy25rtris/assets
+2023-12-04 07:21:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcxjjn7bu/assets
+2023-12-04 07:21:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyu9b5k9h/assets
+2023-12-04 07:21:02 INFO: *************** multi ***************
+2023-12-04 07:21:02 INFO: df_train shape: (676, 51)
+2023-12-04 07:21:02 INFO: df_test shape: (300, 51)
+2023-12-04 07:23:57 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-04 07:23:57 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 07:23:57 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-04 07:24:00 INFO: *************** FS_MUST2 ***************
+2023-12-04 07:24:00 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 07:24:00 INFO: *************** multi ***************
+2023-12-04 07:24:00 INFO: df_train shape: (676, 51)
+2023-12-04 07:24:00 INFO: df_test shape: (300, 51)
+2023-12-04 07:24:38 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-04 07:24:38 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 07:24:38 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-04 07:24:40 INFO: *************** FS_MUST2 ***************
+2023-12-04 07:24:40 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-04 07:24:40 INFO: *************** multi ***************
+2023-12-04 07:24:40 INFO: df_train shape: (676, 51)
+2023-12-04 07:24:40 INFO: df_test shape: (300, 51)
+2023-12-04 07:30:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr86d5k6q/assets
+2023-12-04 07:30:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnyaj1sj0/assets
+2023-12-04 07:30:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjxkoxrvb/assets
+2023-12-04 07:30:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz111fx2e/assets
+2023-12-04 07:30:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpd51idz36/assets
+2023-12-04 07:30:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppkcgoc_u/assets
+2023-12-04 07:30:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk31wy6vn/assets
+2023-12-04 07:30:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp439o_bbu/assets
+2023-12-04 07:30:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7yc487st/assets
+2023-12-04 07:30:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwki2hrq6/assets
+2023-12-04 07:30:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfswgvxu5/assets
+2023-12-04 07:32:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph84uv8ob/assets
+2023-12-04 07:32:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfmksqyju/assets
+2023-12-04 07:32:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyapz5uj0/assets
+2023-12-04 07:32:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpknkso9_c/assets
+2023-12-04 07:32:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxvjkukb_/assets
+2023-12-04 07:32:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt3r0dotl/assets
+2023-12-04 07:32:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9drj65s5/assets
+2023-12-04 07:32:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3814cnjm/assets
+2023-12-04 07:32:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc_ty4dbv/assets
+2023-12-04 07:32:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy8myspwp/assets
+2023-12-04 07:32:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiw5an0ug/assets
+2023-12-04 07:33:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5smswo3x/assets
+2023-12-04 07:33:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy4pldqc3/assets
+2023-12-04 07:33:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9ffjy4cr/assets
+2023-12-04 07:33:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxv11spp6/assets
+2023-12-04 07:33:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmq3lyono/assets
+2023-12-04 07:33:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3cehiv5o/assets
+2023-12-04 07:33:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpisv1b593/assets
+2023-12-04 07:33:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmps442ucl6/assets
+2023-12-04 07:33:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6ihmtu1z/assets
+2023-12-04 07:33:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbdmxj234/assets
+2023-12-04 07:33:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfxnn1xda/assets
+2023-12-04 07:35:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbkstao12/assets
+2023-12-04 07:35:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpustmp2fw/assets
+2023-12-04 07:35:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy5cnkt62/assets
+2023-12-04 07:35:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpavouashm/assets
+2023-12-04 07:35:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq9dno02i/assets
+2023-12-04 07:35:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1lahumq2/assets
+2023-12-04 07:35:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi0sxlg9h/assets
+2023-12-04 07:35:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaa0vl974/assets
+2023-12-04 07:35:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp_fu3edp/assets
+2023-12-04 07:35:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx__149kx/assets
+2023-12-04 07:35:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb6gpl9lv/assets
+2023-12-04 07:37:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt8kdbtaj/assets
+2023-12-04 07:37:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0lhjvh4z/assets
+2023-12-04 07:37:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7yje2jl4/assets
+2023-12-04 07:37:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphoax39ks/assets
+2023-12-04 07:37:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp44tic6p8/assets
+2023-12-04 07:37:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpml_obk7g/assets
+2023-12-04 07:37:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkhm6vjni/assets
+2023-12-04 07:37:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6l4jk678/assets
+2023-12-04 07:37:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpngzwnzkb/assets
+2023-12-04 07:37:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj2er2ey7/assets
+2023-12-04 07:37:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmv664dvx/assets
+2023-12-04 07:37:18 INFO: df_train shape: (593, 51)
+2023-12-04 07:37:18 INFO: df_test shape: (250, 51)
+2023-12-04 07:43:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp75kmqxhc/assets
+2023-12-04 07:43:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwumuyk7h/assets
+2023-12-04 07:43:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpschq48kh/assets
+2023-12-04 07:43:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsc8fwpid/assets
+2023-12-04 07:44:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfcqwt010/assets
+2023-12-04 07:44:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6tkdmwrt/assets
+2023-12-04 07:44:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr5ev6ybi/assets
+2023-12-04 07:44:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5t5pd8y0/assets
+2023-12-04 07:44:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_peishay/assets
+2023-12-04 07:44:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf6_79yv6/assets
+2023-12-04 07:44:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp12f9ubo7/assets
+2023-12-04 07:46:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph1afl0mv/assets
+2023-12-04 07:46:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyhtsuayq/assets
+2023-12-04 07:46:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4t24ad5l/assets
+2023-12-04 07:46:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm9lfpter/assets
+2023-12-04 07:46:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu_9a53hi/assets
+2023-12-04 07:46:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaae6onfh/assets
+2023-12-04 07:46:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcv7e6b4j/assets
+2023-12-04 07:46:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5m5108_m/assets
+2023-12-04 07:46:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpglh0mygu/assets
+2023-12-04 07:46:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkzw3j9ok/assets
+2023-12-04 07:46:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph09hz18o/assets
+2023-12-04 07:48:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi1vaxjpg/assets
+2023-12-04 07:48:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyqsazzzr/assets
+2023-12-04 07:48:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptewxk5nf/assets
+2023-12-04 07:48:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6crje3_9/assets
+2023-12-04 07:48:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmedwrf1y/assets
+2023-12-04 07:48:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp14g9ak_l/assets
+2023-12-04 07:48:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmrt5t2mn/assets
+2023-12-04 07:48:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp_p17qdi/assets
+2023-12-04 07:48:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx08qb0ly/assets
+2023-12-04 07:48:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxn60bjs7/assets
+2023-12-04 07:48:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn92r9pl_/assets
+2023-12-04 07:50:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy2v9e_kq/assets
+2023-12-04 07:50:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2z_l3nbi/assets
+2023-12-04 07:50:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptgacfz0y/assets
+2023-12-04 07:50:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppi7yv44w/assets
+2023-12-04 07:50:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdkwj3vuj/assets
+2023-12-04 07:50:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0ru7xqre/assets
+2023-12-04 07:50:55 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9e5cuz87/assets
+2023-12-04 07:50:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj1osr5ly/assets
+2023-12-04 07:50:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6m1nahxh/assets
+2023-12-04 07:50:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb39nk0tm/assets
+2023-12-04 07:50:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsxk5tjim/assets
+2023-12-04 07:53:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt69pcmb_/assets
+2023-12-04 07:53:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphiy2s2x0/assets
+2023-12-04 07:53:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwxc6xe13/assets
+2023-12-04 07:53:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfy5hhobe/assets
+2023-12-04 07:53:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsqdds8lb/assets
+2023-12-04 07:53:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyibzvptp/assets
+2023-12-04 07:53:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp23jat8ti/assets
+2023-12-04 07:53:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmndv2c60/assets
+2023-12-04 07:53:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi_hs3m97/assets
+2023-12-04 07:53:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb76q8ee7/assets
+2023-12-04 07:53:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3vwer_7b/assets
+2023-12-04 07:53:53 INFO: df_train shape: (380, 51)
+2023-12-04 07:53:53 INFO: df_test shape: (148, 51)
+2023-12-04 08:00:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkqd8vmhc/assets
+2023-12-04 08:00:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi49sl513/assets
+2023-12-04 08:00:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprhedgdoi/assets
+2023-12-04 08:00:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv92t9z63/assets
+2023-12-04 08:00:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgbnlo7ny/assets
+2023-12-04 08:00:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt3dls__7/assets
+2023-12-04 08:00:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptctt78k3/assets
+2023-12-04 08:00:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx3cyhki4/assets
+2023-12-04 08:00:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt_ylt5ky/assets
+2023-12-04 08:00:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7eysm6vm/assets
+2023-12-04 08:00:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt4xo09ae/assets
+2023-12-04 08:05:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0v8szdos/assets
+2023-12-04 08:05:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaunfwmyl/assets
+2023-12-04 08:05:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8gtkq_te/assets
+2023-12-04 08:05:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxrl32lvi/assets
+2023-12-04 08:05:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuzfb12yd/assets
+2023-12-04 08:05:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr82w40k0/assets
+2023-12-04 08:05:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgtw0n57u/assets
+2023-12-04 08:05:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp28vzfp64/assets
+2023-12-04 08:05:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqf3cz6ah/assets
+2023-12-04 08:05:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvl53mdd2/assets
+2023-12-04 08:05:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5ralq8q2/assets
+2023-12-04 08:08:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ug_mbdw/assets
+2023-12-04 08:08:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm1quobg9/assets
+2023-12-04 08:08:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptk3a9wyx/assets
+2023-12-04 08:08:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9n9aeskq/assets
+2023-12-04 08:08:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp37wp3ymt/assets
+2023-12-04 08:08:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqo_yd7rn/assets
+2023-12-04 08:08:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpicwk3fwh/assets
+2023-12-04 08:08:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfx9xnyka/assets
+2023-12-04 08:08:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpplfn4017/assets
+2023-12-04 08:08:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp436ukou_/assets
+2023-12-04 08:08:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp46ctntky/assets
+2023-12-04 08:11:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdhemvaij/assets
+2023-12-04 08:11:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsmr6m_yc/assets
+2023-12-04 08:11:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo92vt4bs/assets
+2023-12-04 08:11:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb36g8h6b/assets
+2023-12-04 08:11:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfm2vi95z/assets
+2023-12-04 08:11:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjqouhvof/assets
+2023-12-04 08:11:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj1u0c9s_/assets
+2023-12-04 08:11:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplpdml8hx/assets
+2023-12-04 08:11:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcht0cxn9/assets
+2023-12-04 08:11:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt6j61xbt/assets
+2023-12-04 08:11:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7pmfp6ed/assets
+2023-12-04 08:14:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpx6l83wbu/assets
+2023-12-04 08:14:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppzsgp38x/assets
+2023-12-04 08:14:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqqa5s597/assets
+2023-12-04 08:14:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwg7uaahi/assets
+2023-12-04 08:14:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg8_tnqv_/assets
+2023-12-04 08:14:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdxbd49kv/assets
+2023-12-04 08:14:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmps_kmo2b9/assets
+2023-12-04 08:14:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxmi2ysoq/assets
+2023-12-04 08:14:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkw_ar9hq/assets
+2023-12-04 08:14:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj474bggf/assets
+2023-12-04 08:14:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptw8i_18o/assets
+2023-12-04 08:14:54 INFO: df_train shape: (235, 51)
+2023-12-04 08:14:54 INFO: df_test shape: (115, 51)
+2023-12-04 08:22:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ds_cd57/assets
+2023-12-04 08:22:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2q63iqtu/assets
+2023-12-04 08:22:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3uxbf2l3/assets
+2023-12-04 08:22:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7gv6t1rb/assets
+2023-12-04 08:22:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpowikcytm/assets
+2023-12-04 08:22:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpoq0wlst2/assets
+2023-12-04 08:22:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9zgbvn1d/assets
+2023-12-04 08:22:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy2x7mom6/assets
+2023-12-04 08:22:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa974z7ut/assets
+2023-12-04 08:22:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphqyb71li/assets
+2023-12-04 08:22:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzqu3bdxy/assets
+2023-12-04 08:27:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ypwifjj/assets
+2023-12-04 08:27:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbq4rn94j/assets
+2023-12-04 08:27:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuxde3i7n/assets
+2023-12-04 08:27:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppp_cae2b/assets
+2023-12-04 08:27:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5oe6siqn/assets
+2023-12-04 08:27:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmxmdfjtb/assets
+2023-12-04 08:28:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpktdak1hb/assets
+2023-12-04 08:28:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyghx70lg/assets
+2023-12-04 08:28:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpubkj6h90/assets
+2023-12-04 08:28:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphstya3_f/assets
+2023-12-04 08:28:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxbdi65al/assets
+2023-12-04 08:31:44 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpanx1odfe/assets
+2023-12-04 08:31:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprrw_rb_t/assets
+2023-12-04 08:31:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp70w1vku7/assets
+2023-12-04 08:31:45 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphzbbclc3/assets
+2023-12-04 08:31:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7u_kcb8f/assets
+2023-12-04 08:31:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt4bgjy21/assets
+2023-12-04 08:31:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6yeadtxv/assets
+2023-12-04 08:31:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnpemyo4b/assets
+2023-12-04 08:31:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0zqoc171/assets
+2023-12-04 08:31:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp06osrkb4/assets
+2023-12-04 08:31:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpikvpttn3/assets
+2023-12-04 08:36:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwyyjxmg6/assets
+2023-12-04 08:36:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp056_spme/assets
+2023-12-04 08:36:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph0jr29zq/assets
+2023-12-04 08:36:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzcw6wjbg/assets
+2023-12-04 08:36:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl0itml_2/assets
+2023-12-04 08:36:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg0ch8j1r/assets
+2023-12-04 08:36:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppbl51q23/assets
+2023-12-04 08:36:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7i3afh2g/assets
+2023-12-04 08:36:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqppk6hy1/assets
+2023-12-04 08:36:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp844s01m3/assets
+2023-12-04 08:36:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1uzvsep3/assets
+2023-12-04 08:41:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgz9tnjk0/assets
+2023-12-04 08:41:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpci8sk08l/assets
+2023-12-04 08:41:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpchfz_brh/assets
+2023-12-04 08:41:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvs1pbkk1/assets
+2023-12-04 08:41:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkivgcv9o/assets
+2023-12-04 08:41:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmptqhl3m_7/assets
+2023-12-04 08:41:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphx52t3eo/assets
+2023-12-04 08:41:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8071_8z0/assets
+2023-12-04 08:41:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl7_m_80o/assets
+2023-12-04 08:41:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5g97yz3y/assets
+2023-12-04 08:41:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt7d06upb/assets
+2023-12-04 08:41:40 INFO: df_train shape: (152, 51)
+2023-12-04 08:41:40 INFO: df_test shape: (57, 51)
+2023-12-04 08:51:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp11j4q9hr/assets
+2023-12-04 08:51:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp51e9wlnr/assets
+2023-12-04 08:51:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzskg0tn0/assets
+2023-12-04 08:51:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpi3rv2z7o/assets
+2023-12-04 08:51:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzqu88krr/assets
+2023-12-04 08:51:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphhk0h4z7/assets
+2023-12-04 08:51:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp38fow925/assets
+2023-12-04 08:51:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt63lz_es/assets
+2023-12-04 08:51:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2oezfr55/assets
+2023-12-04 08:51:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpertp3_x2/assets
+2023-12-04 08:51:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5q7ob0a_/assets
+2023-12-04 09:02:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplihpt9rp/assets
+2023-12-04 09:02:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0gxr0aoo/assets
+2023-12-04 09:02:16 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpo210p7m4/assets
+2023-12-04 09:02:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2k7hgpni/assets
+2023-12-04 09:02:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf4877mjq/assets
+2023-12-04 09:02:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqx_1g014/assets
+2023-12-04 09:02:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgsoxlz01/assets
+2023-12-04 09:02:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpriila3ey/assets
+2023-12-04 09:02:20 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdqe22lvn/assets
+2023-12-04 09:02:21 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj0x04t22/assets
+2023-12-04 09:02:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc3i_5twc/assets
+2023-12-04 09:10:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5sorw6hd/assets
+2023-12-04 09:10:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplqt0bd63/assets
+2023-12-04 09:10:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2k7d5isa/assets
+2023-12-04 09:10:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp26f3gypu/assets
+2023-12-04 09:10:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0lhhxvlt/assets
+2023-12-04 09:10:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv73oye4a/assets
+2023-12-04 09:10:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp64aqg4xb/assets
+2023-12-04 09:11:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdst3d14j/assets
+2023-12-04 09:11:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgwgqe7kf/assets
+2023-12-04 09:11:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiyf6vzw7/assets
+2023-12-04 09:11:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl3cwrxiz/assets
+2023-12-04 09:20:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuvqk2li5/assets
+2023-12-04 09:20:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp55e16zzz/assets
+2023-12-04 09:20:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpglq6d25v/assets
+2023-12-04 09:20:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjscqbgsu/assets
+2023-12-04 09:20:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwl9j2ldz/assets
+2023-12-04 09:20:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaha0x5cp/assets
+2023-12-04 09:20:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqgb4mfbv/assets
+2023-12-04 09:20:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpys8072lz/assets
+2023-12-04 09:20:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxddec0uo/assets
+2023-12-04 09:20:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpla32gg6i/assets
+2023-12-04 09:20:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpr0g19qz2/assets
+2023-12-04 09:29:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsoyvl2b0/assets
+2023-12-04 09:29:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpochyuhrv/assets
+2023-12-04 09:29:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpwgh5dmna/assets
+2023-12-04 09:29:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7t_4rp1r/assets
+2023-12-04 09:29:05 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqzvtuqy0/assets
+2023-12-04 09:29:06 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3jjgz9ah/assets
+2023-12-04 09:29:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0vz7mqn7/assets
+2023-12-04 09:29:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkk9njjq6/assets
+2023-12-04 09:29:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0ndga1yn/assets
+2023-12-04 09:29:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprag11y7a/assets
+2023-12-04 09:29:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdt8y_eh0/assets
+2023-12-04 09:29:10 INFO: df_train shape: (98, 51)
+2023-12-04 09:29:10 INFO: df_test shape: (34, 51)

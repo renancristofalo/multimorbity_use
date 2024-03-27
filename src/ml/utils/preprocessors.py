@@ -221,6 +221,71 @@ def select_preprocessor(preprocessor, X, bypass_columns=[]):
             ]
         )
 
+    elif preprocessor == "TargetEncoding_all":
+        float_features = [
+            col
+            for col in X.select_dtypes(["float16", "float32", "float64"]).columns
+            if col not in bypass_columns
+        ]
+        int_features = [
+            col
+            for col in X.select_dtypes(["int16", "int32", "int64"]).columns
+            if col not in bypass_columns
+        ]
+        categorical_features = [
+            col for col in X.select_dtypes([object, "category"]).columns
+        ]
+
+        # For other methods of inputation: https://scikit-learn.org/stable/auto_examples/impute/plot_iterative_imputer_variants_comparison.html
+        float_transformer = Pipeline(
+            steps=[
+                ("imputer", SimpleImputer(strategy="mean")),
+                ("scaler", StandardScaler()),
+            ]
+        )
+
+        int_transformer = Pipeline(
+            steps=[
+                ("imputer", SimpleImputer(strategy="most_frequent")),
+                ("scaler", StandardScaler()),
+            ]
+        )
+
+        # Applying SimpleImputer and then OneHotEncoder
+        categorical_transformer = Pipeline(
+            steps=[
+                ("imputer", SimpleImputer(strategy="constant", fill_value="missing")),
+                (
+                    "encoder",
+                    TargetEncoder(handle_unknown="value"),
+                ),
+            ]
+        )
+
+        bypass_transformer = Pipeline(steps=[("Bypass", BypassTransformer())])
+
+        # Wrap all the steps onto a single Transformer
+        preprocessor = ColumnTransformer(
+            transformers=[
+                ("float", float_transformer, float_features),
+                ("int", int_transformer, int_features),
+                (
+                    "categorical",
+                    categorical_transformer,
+                    categorical_features,
+                ),
+                ("bypass", bypass_transformer, bypass_columns),
+            ],
+            remainder="passthrough",
+        )
+
+        preprocessor = Pipeline(
+            steps=[
+                ("preprocessor", preprocessor),
+                ("sparse_to_dense", SparseToDenseTransformer()),
+            ]
+        )
+
     elif isinstance(preprocessor, str):
         raise NotImplementedError(f"The preprocessor {preprocessor} is not implemented")
 

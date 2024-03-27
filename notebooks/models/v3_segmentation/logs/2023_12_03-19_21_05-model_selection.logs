@@ -1,0 +1,32 @@
+2023-12-03 19:21:05 INFO: 
+*************** FS_MUST2 ***************
+
+2023-12-03 19:21:05 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 19:21:05 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2023-12-03 19:21:05 INFO: *************** FS_MUST2 ***************
+2023-12-03 19:21:05 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 19:21:05 INFO: *************** idade_10_years ***************
+2023-12-03 19:21:05 INFO: df_train shape: (40, 51)
+2023-12-03 19:21:05 INFO: df_test shape: (18, 51)
+2023-12-03 19:24:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvvrxmat_/assets
+2023-12-03 19:46:21 INFO: *************** FS_MUST2 ***************
+2023-12-03 19:46:21 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2023-12-03 19:46:21 INFO: *************** idade_10_years ***************
+2023-12-03 19:46:21 INFO: df_train shape: (40, 51)
+2023-12-03 19:46:21 INFO: df_test shape: (18, 51)
+2023-12-03 19:49:59 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpra6vu83e/assets
