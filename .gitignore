@@ -12,6 +12,7 @@ __pycache__/
 *.zip
 *.png
 *.p
+*.joblib
 *.html
 
 # Distribution / packaging

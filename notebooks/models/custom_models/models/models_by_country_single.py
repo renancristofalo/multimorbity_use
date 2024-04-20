@@ -1,5 +1,5 @@
 import numpy as np
-from src.ml.custom_models.custom_models import BaseSegmentEstimator
+from ml.custom_models.custom_models_regressor import BaseSegmentEstimator
 from src.ml.data_preparation.data_preparation import get_haversine_distance
 
 
@@ -13,7 +13,7 @@ class TotalAssigningModelByCountrySingle(BaseSegmentEstimator):
 
     def calculate_haversine_distance(self, X, lat_1, lon_1, lat_2, lon_2):
         return np.vectorize(get_haversine_distance)(
-            X[lat_1], X[lon_1], X[lat_2], X[lon_2],unit="km"
+            X[lat_1], X[lon_1], X[lat_2], X[lon_2], unit="km"
         )
 
     def predict(self, X, postprocess=True):
@@ -55,7 +55,7 @@ class ShoppingModelByCountrySingle(BaseSegmentEstimator):
 
     def calculate_haversine_distance(self, X, lat_1, lon_1, lat_2, lon_2):
         return np.vectorize(get_haversine_distance)(
-            X[lat_1], X[lon_1], X[lat_2], X[lon_2],unit="km"
+            X[lat_1], X[lon_1], X[lat_2], X[lon_2], unit="km"
         )
 
     def predict(self, X, postprocess=True):
@@ -76,7 +76,7 @@ class TransportationSetupModelByCountrySingle(BaseSegmentEstimator):
 
     def calculate_haversine_distance(self, X, lat_1, lon_1, lat_2, lon_2):
         return np.vectorize(get_haversine_distance)(
-            X[lat_1], X[lon_1], X[lat_2], X[lon_2],unit="km"
+            X[lat_1], X[lon_1], X[lat_2], X[lon_2], unit="km"
         )
 
     def predict(self, X, postprocess=True):
@@ -97,7 +97,7 @@ class TransportationModelByCountrySingle(BaseSegmentEstimator):
 
     def calculate_haversine_distance(self, X, lat_1, lon_1, lat_2, lon_2):
         return np.vectorize(get_haversine_distance)(
-            X[lat_1], X[lon_1], X[lat_2], X[lon_2],unit="km"
+            X[lat_1], X[lon_1], X[lat_2], X[lon_2], unit="km"
         )
 
     def predict(self, X, postprocess=True):

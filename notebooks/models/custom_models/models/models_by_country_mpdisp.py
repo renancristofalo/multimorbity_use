@@ -1,5 +1,5 @@
 import numpy as np
-from src.ml.custom_models.custom_models import BaseSegmentEstimator
+from ml.custom_models.custom_models_regressor import BaseSegmentEstimator
 from src.ml.data_preparation.data_preparation import get_haversine_distance
 
 

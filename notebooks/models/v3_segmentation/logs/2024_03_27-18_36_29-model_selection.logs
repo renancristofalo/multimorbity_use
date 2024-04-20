@@ -1,0 +1,248 @@
+2024-03-27 18:36:30 INFO: 
+*************** FS_MUST2 ***************
+
+2024-03-27 18:36:30 INFO: {
+   "description": "Training with filtered features selected by the Feature Selector",
+   "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+   "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2024-03-27 18:36:30 INFO: 
+df_train shape: (2211, 50) 
+ df_test shape: (948, 50)
+
+2024-03-27 18:36:30 INFO: *************** FS_MUST2 ***************
+2024-03-27 18:36:30 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2024-03-27 18:36:30 INFO: *************** idade_10_years ***************
+2024-03-27 18:36:30 INFO: df_train shape: (40, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (18, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (239, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (76, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (315, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (152, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (367, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (163, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (482, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (192, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (482, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (220, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (224, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (96, 51)
+2024-03-27 18:36:30 INFO: df_train shape: (62, 51)
+2024-03-27 18:36:30 INFO: df_test shape: (31, 51)
+2024-03-27 18:36:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdkt2ntrk/assets
+2024-03-27 18:36:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxim41_tl/assets
+2024-03-27 18:36:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp89gr7xik/assets
+2024-03-27 18:36:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp64pql0lx/assets
+2024-03-27 18:36:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpw4htpmk4/assets
+2024-03-27 18:36:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp53qwgnc7/assets
+2024-03-27 18:36:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj6fv8d4c/assets
+2024-03-27 18:36:42 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcmycqwv_/assets
+2024-03-27 18:36:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2ssryt0y/assets
+2024-03-27 18:36:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2povv0dx/assets
+2024-03-27 18:36:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpz751p57a/assets
+2024-03-27 18:36:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm4cqlsgm/assets
+2024-03-27 18:36:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1qnyr1u7/assets
+2024-03-27 18:36:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqhsbilvu/assets
+2024-03-27 18:36:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqj7fj639/assets
+2024-03-27 18:36:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzknos237/assets
+2024-03-27 18:36:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5d47x18q/assets
+2024-03-27 18:36:52 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_ukcfpwv/assets
+2024-03-27 18:36:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp10dewdg_/assets
+2024-03-27 18:36:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcx_ml7sp/assets
+2024-03-27 18:36:53 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpupb7ct6b/assets
+2024-03-27 18:36:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqo7g9ffc/assets
+2024-03-27 18:36:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpflsz0l8s/assets
+2024-03-27 18:36:54 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf0qf2t2j/assets
+2024-03-27 18:36:56 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpti_xix8_/assets
+2024-03-27 18:36:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8ulgz_4w/assets
+2024-03-27 18:36:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpsvgqzfxl/assets
+2024-03-27 18:36:57 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuvm2139u/assets
+2024-03-27 18:36:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2izy01qs/assets
+2024-03-27 18:36:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp55v9x629/assets
+2024-03-27 18:36:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpdtidjz4_/assets
+2024-03-27 18:36:58 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu8fk0y8v/assets
+2024-03-27 18:37:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcyboy183/assets
+2024-03-27 18:37:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpyoni9hg8/assets
+2024-03-27 18:37:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpud0hpdt9/assets
+2024-03-27 18:37:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmddy9zxl/assets
+2024-03-27 18:37:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv_h8m87p/assets
+2024-03-27 18:37:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuh08foub/assets
+2024-03-27 18:37:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp83ba_nt1/assets
+2024-03-27 18:37:04 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv2q_d_92/assets
+2024-03-27 18:37:04 INFO: *************** idade_groups ***************
+2024-03-27 18:37:04 INFO: df_train shape: (594, 51)
+2024-03-27 18:37:04 INFO: df_test shape: (246, 51)
+2024-03-27 18:37:04 INFO: df_train shape: (849, 51)
+2024-03-27 18:37:04 INFO: df_test shape: (355, 51)
+2024-03-27 18:37:04 INFO: df_train shape: (768, 51)
+2024-03-27 18:37:04 INFO: df_test shape: (347, 51)
+2024-03-27 18:37:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe2byir9b/assets
+2024-03-27 18:37:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4w9a1rzr/assets
+2024-03-27 18:37:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp6p0j2c9q/assets
+2024-03-27 18:37:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa7iol01e/assets
+2024-03-27 18:37:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphg4c5xwe/assets
+2024-03-27 18:37:12 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj8rahxat/assets
+2024-03-27 18:37:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2az2hqnt/assets
+2024-03-27 18:37:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppx5odgep/assets
+2024-03-27 18:37:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp1kd4qbla/assets
+2024-03-27 18:37:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa4pgmlh3/assets
+2024-03-27 18:37:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphmxeum23/assets
+2024-03-27 18:37:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpiaf5ay6a/assets
+2024-03-27 18:37:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4c_sc88v/assets
+2024-03-27 18:37:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjm4cuwwp/assets
+2024-03-27 18:37:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppmr0w8we/assets
+2024-03-27 18:37:17 INFO: *************** idade_quantiles ***************
+2024-03-27 18:37:17 INFO: df_train shape: (562, 51)
+2024-03-27 18:37:17 INFO: df_test shape: (246, 51)
+2024-03-27 18:37:17 INFO: df_train shape: (550, 51)
+2024-03-27 18:37:17 INFO: df_test shape: (230, 51)
+2024-03-27 18:37:17 INFO: df_train shape: (561, 51)
+2024-03-27 18:37:17 INFO: df_test shape: (249, 51)
+2024-03-27 18:37:17 INFO: df_train shape: (538, 51)
+2024-03-27 18:37:17 INFO: df_test shape: (223, 51)
+2024-03-27 18:37:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpu7aw4bal/assets
+2024-03-27 18:37:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqamnvfbz/assets
+2024-03-27 18:37:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpmd21p8_0/assets
+2024-03-27 18:37:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpc215dek1/assets
+2024-03-27 18:37:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpavdrz0fk/assets
+2024-03-27 18:37:26 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxjac4ul0/assets
+2024-03-27 18:37:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2pi5yaav/assets
+2024-03-27 18:37:27 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpoik6h88c/assets
+2024-03-27 18:37:28 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf43_vt_3/assets
+2024-03-27 18:37:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpid54x6mr/assets
+2024-03-27 18:37:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_mqrrq_k/assets
+2024-03-27 18:37:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3nc5tmg5/assets
+2024-03-27 18:37:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpjnj9wc1k/assets
+2024-03-27 18:37:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpd19pdn8x/assets
+2024-03-27 18:37:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp582_f9b0/assets
+2024-03-27 18:37:31 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkmgz2wmo/assets
+2024-03-27 18:37:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpunpe2ur4/assets
+2024-03-27 18:37:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpk8l2ow6s/assets
+2024-03-27 18:37:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpw5pvkoei/assets
+2024-03-27 18:37:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpbggqiky6/assets
+2024-03-27 18:37:34 INFO: *************** plano ***************
+2024-03-27 18:37:34 INFO: df_train shape: (1185, 51)
+2024-03-27 18:37:34 INFO: df_test shape: (506, 51)
+2024-03-27 18:37:34 INFO: df_train shape: (1026, 51)
+2024-03-27 18:37:34 INFO: df_test shape: (442, 51)
+2024-03-27 18:37:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpf9l76x_c/assets
+2024-03-27 18:37:37 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuljqu9b0/assets
+2024-03-27 18:37:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpuc4plzvq/assets
+2024-03-27 18:37:39 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmphjlt21bu/assets
+2024-03-27 18:37:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl_3dyfv7/assets
+2024-03-27 18:37:40 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2k2yksxb/assets
+2024-03-27 18:37:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpfkmnpey8/assets
+2024-03-27 18:37:41 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgi6dqelm/assets
+2024-03-27 18:37:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe5p164k5/assets
+2024-03-27 18:37:43 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpq7tgeb70/assets
+2024-03-27 18:37:43 INFO: *************** cor2 ***************
+2024-03-27 18:37:43 INFO: df_train shape: (1762, 51)
+2024-03-27 18:37:43 INFO: df_test shape: (759, 51)
+2024-03-27 18:37:43 INFO: df_train shape: (449, 51)
+2024-03-27 18:37:43 INFO: df_test shape: (189, 51)
+2024-03-27 18:37:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5472ajoa/assets
+2024-03-27 18:37:46 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpl3385n_1/assets
+2024-03-27 18:37:47 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvv5d305f/assets
+2024-03-27 18:37:48 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpxrvrqird/assets
+2024-03-27 18:37:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp3fjosg_i/assets
+2024-03-27 18:37:49 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2xtsnghk/assets
+2024-03-27 18:37:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp09e4uzwe/assets
+2024-03-27 18:37:50 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg4933lru/assets
+2024-03-27 18:37:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp017yd7n5/assets
+2024-03-27 18:37:51 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpasj_a313/assets
+2024-03-27 18:37:51 INFO: *************** multi ***************
+2024-03-27 18:37:51 INFO: df_train shape: (676, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (300, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (593, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (250, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (380, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (148, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (235, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (115, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (152, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (57, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (98, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (34, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (35, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (19, 51)
+2024-03-27 18:37:51 INFO: df_train shape: (42, 51)
+2024-03-27 18:37:51 INFO: df_test shape: (25, 51)
+2024-03-27 18:38:00 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpa8igoa40/assets
+2024-03-27 18:38:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp968de6d9/assets
+2024-03-27 18:38:01 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_4liqkpz/assets
+2024-03-27 18:38:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpy40j8hds/assets
+2024-03-27 18:38:02 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpekdjkial/assets
+2024-03-27 18:38:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnn3oam0u/assets
+2024-03-27 18:38:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpj_qx54q5/assets
+2024-03-27 18:38:03 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppaz0kr3d/assets
+2024-03-27 18:38:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpww3iyo_s/assets
+2024-03-27 18:38:07 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpp2jm64ff/assets
+2024-03-27 18:38:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_vy0x1us/assets
+2024-03-27 18:38:08 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcy8_y6z3/assets
+2024-03-27 18:38:09 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp58js8tnh/assets
+2024-03-27 18:38:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp7dkybrih/assets
+2024-03-27 18:38:10 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmplx09_84f/assets
+2024-03-27 18:38:11 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmprv9dbaxg/assets
+2024-03-27 18:38:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmph78cgupw/assets
+2024-03-27 18:38:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzxmmae1a/assets
+2024-03-27 18:38:13 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpzm05zz78/assets
+2024-03-27 18:38:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpt9xjhk1v/assets
+2024-03-27 18:38:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgh7jcuj8/assets
+2024-03-27 18:38:14 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpta6jg_o7/assets
+2024-03-27 18:38:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpn5817dbu/assets
+2024-03-27 18:38:15 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpvuzg6feb/assets
+2024-03-27 18:38:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgqjhieq5/assets
+2024-03-27 18:38:17 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp32lzh4qv/assets
+2024-03-27 18:38:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpqxq0xsbx/assets
+2024-03-27 18:38:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpcovjjwh2/assets
+2024-03-27 18:38:18 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0jftbwmf/assets
+2024-03-27 18:38:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpipeowqua/assets
+2024-03-27 18:38:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8dpm5kkj/assets
+2024-03-27 18:38:19 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp56ud3qe4/assets
+2024-03-27 18:38:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp4xq0pe65/assets
+2024-03-27 18:38:22 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpv47ucyyc/assets
+2024-03-27 18:38:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpgp1u7zke/assets
+2024-03-27 18:38:23 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpif9g1z0h/assets
+2024-03-27 18:38:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe58fz3lt/assets
+2024-03-27 18:38:24 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp0rf_127s/assets
+2024-03-27 18:38:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpg58iokba/assets
+2024-03-27 18:38:25 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp06r0z28r/assets
+2024-03-27 18:38:25 INFO: *************** multi2 ***************
+2024-03-27 18:38:25 INFO: df_train shape: (676, 51)
+2024-03-27 18:38:25 INFO: df_test shape: (300, 51)
+2024-03-27 18:38:25 INFO: df_train shape: (593, 51)
+2024-03-27 18:38:25 INFO: df_test shape: (250, 51)
+2024-03-27 18:38:25 INFO: df_train shape: (942, 51)
+2024-03-27 18:38:25 INFO: df_test shape: (398, 51)
+2024-03-27 18:38:29 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpb9ab91co/assets
+2024-03-27 18:38:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp9zh7tcr4/assets
+2024-03-27 18:38:30 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpnax4sc_j/assets
+2024-03-27 18:38:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpaap82h6_/assets
+2024-03-27 18:38:32 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpatxv296x/assets
+2024-03-27 18:38:33 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp8t7d3abj/assets
+2024-03-27 18:38:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp_azjtpxh/assets
+2024-03-27 18:38:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp5bmq8yas/assets
+2024-03-27 18:38:34 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmply_nkpfw/assets
+2024-03-27 18:38:35 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmppm3jb48u/assets
+2024-03-27 18:38:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpm2xht2bl/assets
+2024-03-27 18:38:36 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpe6r6lzl9/assets
+2024-03-27 18:38:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp12kwat87/assets
+2024-03-27 18:38:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmpkduddzr1/assets
+2024-03-27 18:38:38 INFO: Assets written to: ram:///var/folders/76/wty8h2t54v58m7s7y_zrmlt00000gn/T/tmp2r2oz0ya/assets
+2024-03-27 18:38:38 INFO: *************** FS_MUST2 ***************
+2024-03-27 18:38:38 INFO: {
+    "description": "Training with filtered features selected by the Feature Selector",
+    "df_train": "../data/feature_selection/fs_must2/df_train.parquet",
+    "df_test": "../data/feature_selection/fs_must2/df_test.parquet"
+}
+2024-03-27 18:38:38 INFO: *************** idade_10_years ***************
+2024-03-27 18:38:38 INFO: *************** idade_groups ***************
+2024-03-27 18:38:38 INFO: *************** idade_quantiles ***************
+2024-03-27 18:38:38 INFO: *************** plano ***************
+2024-03-27 18:38:38 INFO: *************** cor2 ***************
+2024-03-27 18:38:38 INFO: *************** multi ***************
+2024-03-27 18:38:38 INFO: *************** multi2 ***************
